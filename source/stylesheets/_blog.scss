@@ -1,2 +1,9 @@
-@import "bourbon/bourbon";
-@import "neat/neat";
+header {
+  font-family: $helvetica;
+  color: red;
+  font-size: modular-scale(0);
+}
+
+h1 {
+  color: $red;
+}
