@@ -19,6 +19,9 @@ activate :deploy do |deploy|
   #deploy.strategy = :submodule
 end
 
+configure :development do |development|
+  activate :livereload
+end
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
