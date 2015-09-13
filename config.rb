@@ -13,7 +13,7 @@ activate :deploy do |deploy|
 
   # branch is optional (default is "gh-pages")
   # run `git branch -a` to see a list of possible branches
-  deploy.branch = "master"
+  #deploy.branch = "master"
 
   # strategy is optional (default is :force_push)
   #deploy.strategy = :submodule
