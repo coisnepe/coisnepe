@@ -1,0 +1,17 @@
+footer {
+  @include outer-container;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  .troll {
+    max-width: 50%;
+    align-items: flex-end;
+    img {
+      height: 200px;
+    }
+  }
+  .important:hover {
+    @include animation(scale 1.0s ease-in, slide 2.0s ease);
+  }
+}

@@ -1,0 +1,14 @@
+.header {
+  @include outer-container;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  .about {
+    @include span-columns(6 of 12);
+    border: solid 1px black;
+  }
+  .blog {
+    @include span-columns(6 of 12);
+    border: solid 1px black;
+  }
+}
