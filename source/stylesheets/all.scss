@@ -1,10 +1,11 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 @import "base/base";
-@import "blog";
 @import "components/*";
 @import "layout/*";
 @import "highlightjs/monokai_sublime";
+@import "blog";
+@import "about";
 
 body {
   font-family: $base-font-family;
