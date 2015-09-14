@@ -7,11 +7,12 @@
 
     <%= partial 'partials/navbar' %>
 
-    <div id="main out-container" role="main">
-      <%= yield %>
+    <div class="blog-body">
+      <div class="blog-articles">
+        <%= yield %>
+      </div>
+      <%= partial 'partials/blogsidebar' %>
     </div>
-
-    <%= partial 'partials/blogsidebar' %>
 
     <%= partial 'partials/footer' %>
 
