@@ -1,14 +1,15 @@
 ---
 title: Best Web Dev apps for Mac OSX
 date: 2015-09-14 16:10 UTC
-tags:
+tags: OSX
 ---
+
 ### Transmit (FTP)
 
 ##### FTP
 
 Arguably the neatest Mac FTP client out there, it’s just fast and lets you access your servers or Amazon S3 buckets in the blink of an eye.
-[[Link to the Mac App Store]](https://itunes.apple.com/fr/app/transmit/id403388562?l=en&mt=12)
+[Link to the Mac App Store](https://itunes.apple.com/fr/app/transmit/id403388562?l=en&mt=12)
 
 ![](https://panic.com/transmit/img/card-screenshot1.png)
 
@@ -28,7 +29,7 @@ One of the most popular text editors for Mac, it really shines by its functional
 
 Dash lets you download official documentation for all major languages, from HTML to Python, as well as frameworks such as Bootstrap, Rails or Django. You can also access docs compiled by third parties: Sublime Text shortcuts, Regex cheatsheet, Ruby gems or Python modules, etc. It’s freemium: you have access to most of the app but are limited to one query per 10 seconds. Well worth the $10 cost.
 
-![](http://a1.mzstatic.com/us/r30/Purple5/v4/4a/6b/3f/4a6b3f67-dae6-5f65-f171-1bbc4b1a7c83/screen800x500.jpeg)</div>
+![](http://a1.mzstatic.com/us/r30/Purple5/v4/4a/6b/3f/4a6b3f67-dae6-5f65-f171-1bbc4b1a7c83/screen800x500.jpeg)
 
 
 ### Quiver
@@ -56,4 +57,7 @@ Ever heard of the 20/20/20 rule? Every 20 minutes look for 20 seconds 20 meters 
 
 ![](http://www.dejal.com/timeout/images/overview.png)
 
-What I consider to be the best programming apps installed on my computer
+What I consider to be the best programming apps installed on my computer...
+
+
+
