@@ -1,0 +1,817 @@
+---
+title: Codecademy notes - Ruby
+date: 2015-09-14 16:10 UTC
+tags:
+---
+
+<ol>
+    <li><h1 id="tabli"><a href="#introduction-to-ruby">Introduction to Ruby</a></h1>
+        <ol>
+            <li><h2 id="tabli"><a href="#-introduction-to-ruby-http-www-codecademy-com-courses-ruby-beginner-en-d1ylq-0-1-curriculum_id-5059f8619189a5000201fbcb-">Introduction to Ruby</a></h2></li>
+        </ol>
+    </li>
+
+    <li><h1 id="tabli"><a href="#methods">Methods</a></h1>
+        <ol>
+            <li><h2 id="tabli"><a href="#-dealing-with-inputs-http-www-codecademy-com-courses-ruby-beginner-en-mxxx5-0-1-curriculum_id-5059f8619189a5000201fbcb-">Dealing with inputs</a></h2></li>
+        </ol>
+    </li>
+
+    <li><h1 id="tabli"><a href="#control-flow-in-ruby">Control Flow in Ruby</a></h1>
+        <ol>
+            <li><h2 id="tabli"><a href="#-control-flow-in-ruby-http-www-codecademy-com-courses-ruby-beginner-en-nfcz7-0-1-curriculum_id-5059f8619189a5000201fbcb-">Control Flow in Ruby</a></h2></li>
+            <li><h2 id="tabli"><a href="#-thith-means-war-http-www-codecademy-com-courses-ruby-beginner-en-jdnde-0-1-curriculum_id-5059f8619189a5000201fbcb-">Thith Means War!</a></h2></li>
+        </ol>
+    </li>
+
+    <li><h1 id="tabli"><a href="#looping-with-ruby">Looping with Ruby</a></h1>
+        <ol>
+            <li><h2 id="tabli"><a href="#-loops-iterators-http-www-codecademy-com-courses-ruby-beginner-en-xycn1-0-1-curriculum_id-5059f8619189a5000201fbcb-">Loops &amp; Iterators</a></h2></li>
+            <li><h2 id="tabli"><a href="#-redacted-http-www-codecademy-com-courses-ruby-beginner-en-mzrz6-0-1-curriculum_id-5059f8619189a5000201fbcb-">Redacted!</a></h2></li>
+        </ol>
+    </li>
+
+    <li><h1 id="tabli"><a href="#arrays-and-hashes">Arrays and Hashes</a></h1>
+        <ol>
+            <li><h2 id="tabli"><a href="#-data-structures-http-www-codecademy-com-courses-ruby-beginner-en-f3lob-0-1-curriculum_id-5059f8619189a5000201fbcb-">Data Structures</a></h2></li>
+
+            <li>
+              <h2 id="tabli"><a href="#-create-a-histogram-http-www-codecademy-com-courses-ruby-beginner-en-693pd-0-1-curriculum_id-5059f8619189a5000201fbcb-">Create a Histogram</a></h2>
+            </li>
+        </ol>
+    </li>
+
+    <li>
+
+
+        <h1 id="tabli"><a href="#blocks-and-sorting">Blocks and Sorting</a></h1>
+
+        <ol>
+            <li>
+              <h2 id="tabli"><a href="#-methods-blocks-and-sorting-http-www-codecademy-com-courses-ruby-beginner-en-et4bu-0-1-curriculum_id-5059f8619189a5000201fbcb-">Methods, Blocks and Sorting</a></h2>
+            </li>
+
+            <li>
+                <h2 id="tabli"><a href="#-ordering-your-library-http-www-codecademy-com-courses-ruby-beginner-en-noho7-0-1-curriculum_id-5059f8619189a5000201fbcb-">Ordering Your Library</a></h2>
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        <h1 id="tabli"><a href="#hashes-and-symbols">Hashes and Symbols</a></h1>
+
+        <ol>
+            <li>
+                <h2 id="tabli"><a href="#-hashes-and-symbols-http-www-codecademy-com-courses-ruby-beginner-en-qn7qw-0-1-curriculum_id-5059f8619189a5000201fbcb-">Hashes and Symbols</a></h2>
+            </li>
+
+            <li>
+                <h2 id="tabli"><a href="#-a-night-at-the-movies-http-www-codecademy-com-courses-ruby-beginner-en-0i8v1-0-1-curriculum_id-5059f8619189a5000201fbcb-">A Night at the Movies</a></h2>
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        <h1 id="tabli"><a href="#refactoring">Refactoring</a></h1>
+
+        <ol>
+            <li>
+                <h2 id="tabli"><a href="#-the-zen-of-ruby-http-www-codecademy-com-courses-ruby-beginner-en-1o8mb-0-1-curriculum_id-5059f8619189a5000201fbcb-">The Zen of Ruby</a></h2>
+            </li>
+
+            <li>
+                <h2 id="tabli"><a href="#-the-refactor-factory-http-www-codecademy-com-courses-ruby-beginner-en-zjd2y-0-1-curriculum_id-5059f8619189a5000201fbcb-">The Refactor Factory</a></h2>
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        <h1 id="tabli"><a href="#blocks-procs-and-lambdas">Blocks, Procs and Lambdas</a></h1>
+
+        <ol>
+            <li>
+                <h2 id="tabli"><a href="#-blocks-procs-and-lambdas-http-www-codecademy-com-courses-ruby-beginner-en-l3zci-0-1-curriculum_id-5059f8619189a5000201fbcb-">Blocks, Procs and Lambdas</a></h2>
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        <h1 id="tabli"><a href="#object-oriented-programming-part-1">Object-Oriented Programming, Part 1</a></h1>
+
+        <ol>
+            <li>
+                <h2 id="tabli"><a href="#-object-oriented-programming-i-http-www-codecademy-com-courses-ruby-beginner-en-mfiq6-0-1-curriculum_id-5059f8619189a5000201fbcb-">Object-Oriented Programming I</a></h2>
+            </li>
+
+            <li>
+                <h2 id="tabli"><a href="#-virtual-computer-http-www-codecademy-com-courses-ruby-beginner-en-x5wcr-0-1-curriculum_id-5059f8619189a5000201fbcb-">Virtual Computer</a></h2>
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        <h1 id="tabli"><a href="#object-oriented-programming-ii">Object-Oriented Programming II</a></h1>
+
+        <ol>
+            <li>
+                <h2 id="tabli"><a href="#-object-oriented-programming-ii-http-www-codecademy-com-courses-ruby-beginner-en-zfe3o-0-1-curriculum_id-5059f8619189a5000201fbcb-">Object-Oriented Programming II</a></h2>
+            </li>
+
+            <li>
+                <h2 id="tabli"><a href="#-banking-on-ruby-http-www-codecademy-com-courses-ruby-beginner-en-32cn3-0-1-curriculum_id-5059f8619189a5000201fbcb-">Banking on Ruby</a></h2>
+            </li>
+        </ol>
+    </li>
+</ol>
+
+
+
+<div id="contentarea">
+    <div class="cell markdown-cell">
+        <h1 id="introduction-to-ruby">Introduction to Ruby</h1><a href="http://www.codecademy.com/en/tracks/ruby">http://www.codecademy.com/en/tracks/ruby</a>
+
+        <h2 id="-introduction-to-ruby-http-www-codecademy-com-courses-ruby-beginner-en-d1ylq-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq/0/1?curriculum_id=5059f8619189a5000201fbcb">Introduction to Ruby</a></h2>Printing in Ruby
+    </div>
+    <pre class="cell code-cell">
+      <code>print "regular, just print to screen"
+      puts "adds a new line after printing"
+      </code>
+    </pre>
+
+    <div class="cell markdown-cell">
+        <h2 id="methods">Methods</h2>
+    </div>
+    <pre class="cell code-cell">
+      <code class="ruby">
+        "Get the length".length
+
+        "Reverses the string".reverse
+
+        "upcase".upcase
+
+        "downcase".downcase
+
+        "capitalize".capitalize
+
+        # write a single line comment
+
+        =begin
+        Write a multiple lines comment
+        =end
+      </code>
+    </pre>
+
+    <div class="cell markdown-cell">
+        <h2 id="-dealing-with-inputs-http-www-codecademy-com-courses-ruby-beginner-en-mxxx5-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-MxXx5/0/1?curriculum_id=5059f8619189a5000201fbcb">Dealing with inputs</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code>print "What is your name?"
+name = gets.chomp
+name.capitalize
+# ! after the method modifies the variable permanently
+
+puts "Your name is #{name}"</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h1 id="control-flow-in-ruby">Control Flow in Ruby</h1>
+
+        <h2 id="-control-flow-in-ruby-http-www-codecademy-com-courses-ruby-beginner-en-nfcz7-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7/0/1?curriculum_id=5059f8619189a5000201fbcb">Control Flow in Ruby</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code>print "Enter an integer:"
+the_integer = Integer(gets.chomp)
+
+if the_integer == 5
+  puts "five!"
+elsif the_integer &gt; 0
+  puts "positive"
+elsif the_integer &lt; 0
+  puts "negative"
+else
+  puts "zero!"
+end
+
+# unless
+hungry = true
+unless hungry
+  puts "I'm not hungry"
+else
+  puts "I AM hungry!"
+end
+
+# ----- Comparisons ------
+is_true = 2 != 3
+is_false = 2 == 3
+
+is_less_than = 17 &lt; 16
+is_more_than = 17 &gt; 16
+less_or_equal = 9 &gt;= 9
+more_or_equal = 9 &lt;= 9
+
+# ----- Booleans ------
+true &amp;&amp; true # and
+true || false # or
+!true # not... !true -&gt; false
+
+(3 &lt; 4 || false) &amp;&amp; (false || true)
+# (true OR false) AND (false OR true) --&gt; (true) AND (true) --&gt; true
+
+true || false || nil # Booleans</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h2 id="-thith-means-war-http-www-codecademy-com-courses-ruby-beginner-en-jdnde-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-JdNDe/0/1?curriculum_id=5059f8619189a5000201fbcb">Thith Means War!</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code>input_test = "six sense"
+
+if input_test.include? "s" # ' ? ' to evaluate if true or false
+  input_user.gsub!(/s/, "th") # gsub --&gt; Global SUBstitution</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h1 id="looping-with-ruby">Looping with Ruby</h1>
+
+        <h2 id="-loops-iterators-http-www-codecademy-com-courses-ruby-beginner-en-xycn1-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-XYcN1/0/1?curriculum_id=5059f8619189a5000201fbcb">Loops &amp; Iterators</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code># ----- Iterators -----
+while condition
+  # do something
+end
+
+until condition met
+  # do something
+end
+
+for num in 1...10 # range excluding 10
+  puts num
+end
+# 1..10 is range including 10
+
+
+# ----- Loops -----
+i = 0
+loop do # {
+  i += 1
+  next if i % 2 == 0 # Skip if i is even
+  puts "#{i}"
+  break if i &gt; 5
+end # }
+
+# ----- Array -----
+this_array = [1,2,3,4,5]
+
+this_array.each do |x| # .each iterator
+  x += 10
+  print "#{x}"
+end
+
+this_array.each { |item| puts item}
+
+10.times { puts "je repete"}</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h2 id="-redacted-http-www-codecademy-com-courses-ruby-beginner-en-mzrz6-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-mzrZ6/0/1?curriculum_id=5059f8619189a5000201fbcb">Redacted!</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code>sentence = "This is going to be split"
+words = sentence.split(" ")</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h1 id="arrays-and-hashes">Arrays and Hashes</h1>
+
+        <h2 id="-data-structures-http-www-codecademy-com-courses-ruby-beginner-en-f3lob-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-F3loB/0/1?curriculum_id=5059f8619189a5000201fbcb">Data Structures</a></h2>
+    </div>
+    <pre class="cell code-cell">
+      <code># ----- Arrays -----
+      array[1] # Access 'second' item of array
+      multi_d_array = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]] # array of arrays
+      multi_d_array[0][1] # Access item with sub-array
+
+      multi_d_array.each do |sub_array|
+        sub_array.each do |sub_item|
+          puts sub_item
+        end
+      end
+
+      # ----- Hashes ----- ( = Python dictionary )
+      hash = {
+        key1 =&gt; value1,
+        key2 =&gt; value2,
+        key3 =&gt; value3
+      }
+      puts hash[key1] # Prints the value of key1
+
+      pets = {}
+      pets = Hash.new
+      pets["Species"] = "Cat"
+
+      array.each { |x| puts "#{x}" }
+      hash.each { |x, y| puts "#{x}: #{y}"}
+      </code>
+    </pre>
+
+    <div class="cell markdown-cell">
+        <h2 id="-create-a-histogram-http-www-codecademy-com-courses-ruby-beginner-en-693pd-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-693PD/0/1?curriculum_id=5059f8619189a5000201fbcb">Create a Histogram</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code>frequencies = Hash.new(0) # Default value of 0 to all keys</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h1 id="blocks-and-sorting">Blocks and Sorting</h1>
+
+        <h2 id="-methods-blocks-and-sorting-http-www-codecademy-com-courses-ruby-beginner-en-et4bu-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-ET4bU/0/1?curriculum_id=5059f8619189a5000201fbcb">Methods, Blocks and Sorting</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code>def welcome(n)
+  puts "welcome" * n
+end
+
+# Splat arguments: there can be many
+def family(greeting, *bros)
+  bros.each { |bro| puts "#{greeting} #{bro}"}
+end
+family("Hey", "Greg", "Nick")
+
+# Combined Comparison
+item1 &lt;=&gt; item2
+# Returns O if item1 == item2, 1 if item1 &gt; item 2 and -1 if item1 &lt; item2
+
+books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
+
+# To sort our books in ascending order, in-place
+books.sort! { |firstBook, secondBook| firstBook &lt;=&gt; secondBook }
+</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h2 id="-ordering-your-library-http-www-codecademy-com-courses-ruby-beginner-en-noho7-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-nOho7/0/1?curriculum_id=5059f8619189a5000201fbcb">Ordering Your Library</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code>def alphabetize(arr, rev=false)
+    arr.sort!
+    if rev == true
+        arr.reverse!
+    else
+        return arr
+    end
+end
+
+numbers = [5, 1, 3, 8]
+
+puts alphabetize(numbers, true)</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h1 id="hashes-and-symbols">Hashes and Symbols</h1>
+
+        <h2 id="-hashes-and-symbols-http-www-codecademy-com-courses-ruby-beginner-en-qn7qw-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw/0/1?curriculum_id=5059f8619189a5000201fbcb">Hashes and Symbols</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code># Hash literal notation:
+new_hash = { "one" =&gt; 1}
+
+# Hash constructor notation
+new_hash = Hash.new
+
+# To add a new key/value to a hash:
+
+new_hash[newkey] = newvalue</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h2 id="-a-night-at-the-movies-http-www-codecademy-com-courses-ruby-beginner-en-0i8v1-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-0i8v1/0/1?curriculum_id=5059f8619189a5000201fbcb">A Night at the Movies</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code># The case statement
+case language
+when "Ruby"
+  puts "Newcomer"
+when "Python"
+  puts "Old timer"
+else
+  puts "learn a language!"
+end</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h1 id="refactoring">Refactoring</h1>
+    </div>
+
+    <div class="cell markdown-cell">
+        <h2 id="-the-zen-of-ruby-http-www-codecademy-com-courses-ruby-beginner-en-1o8mb-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb/0/1?curriculum_id=5059f8619189a5000201fbcb">The Zen of Ruby</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code># Ternary conditional expression
+
+puts 3 &gt; 4 ? "Nope, left is less than right": "Yep, right is more than left"
+
+case greeting
+    when "English" then puts "Hello!"
+end
+
+conditional_assignment_operator ||= "That's it"
+
+# Concatenation operator
+school = "Le"
+school &lt;&lt; "Wagon" # "Push" something to a string or array
+"Je vais" + school</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h2 id="-the-refactor-factory-http-www-codecademy-com-courses-ruby-beginner-en-zjd2y-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-Zjd2y/0/1?curriculum_id=5059f8619189a5000201fbcb">The Refactor Factory</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code># Tricks to make better and more aesthetic code</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h1 id="blocks-procs-and-lambdas">Blocks, Procs and Lambdas</h1>
+
+        <h2 id="-blocks-procs-and-lambdas-http-www-codecademy-com-courses-ruby-beginner-en-l3zci-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI/0/1?curriculum_id=5059f8619189a5000201fbcb">Blocks, Procs and Lambdas</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code>def yield_name(name)
+end
+yield_name("Paul") { |n| puts "What's up #{n}?"}
+
+def double(single)
+    yield single
+end
+double(2) {|n| n*2}</code>
+</pre>
+    <pre class="cell code-cell">
+<code># PROC
+# Keep code D.R.Y. : "Don't Repeat Yourself"
+multiples_of_3 = Proc.new do |n|
+  n % 3 == 0
+end
+
+(1..100).to_a.select(&amp;multiples_of_3)
+
+# Call Procs
+hi = Proc.new { puts "Hello!"}
+hi.call</code>
+</pre>
+    <pre class="cell code-cell">
+<code># Lambdas
+=begin
+Lambda checks the number of arguments passed into it, but Procs don't
+
+Second, when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without going back to the calling method.
+=end
+
+def batman_ironman_proc
+  victor = Proc.new { return "Batman will win!" }
+  victor.call
+  "Iron Man will win!"
+end
+
+puts batman_ironman_proc
+
+def batman_ironman_lambda
+  victor = lambda { return "Batman will win!" }
+  victor.call
+  "Iron Man will win!"
+end
+
+puts batman_ironman_lambda</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <a href="https://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/">Difference between a Proc and a Lambda</a>
+    </div>
+    <pre class="cell code-cell">
+<code># 17/21
+odds_n_ends = [:weezard, 42, "Trady Blix", 3, true, 19, 12.345]
+
+process = lambda {|x| x.is_a? Integer}
+
+ints = odds_n_ends.select(&amp;process)</code>
+</pre>
+    <pre class="cell code-cell">
+<code># 18/21
+ages = [23, 101, 7, 104, 11, 94, 100, 121, 101, 70, 44]
+
+# Add your code below!
+
+under_100 = Proc.new { |x| x &lt; 100 }
+
+youngpeople = ages.select(&amp;under_100)</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h1 id="object-oriented-programming-part-1">Object-Oriented Programming, Part 1</h1>
+
+        <h2 id="-object-oriented-programming-i-http-www-codecademy-com-courses-ruby-beginner-en-mfiq6-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6/0/1?curriculum_id=5059f8619189a5000201fbcb">Object-Oriented Programming I</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code>class Person
+    def initialize(name)
+        @name = name
+    end
+end
+
+matz = Person.new("Yukihiro")</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <ul>
+            <li>Global variables ($)</li>
+
+            <li>Local variables</li>
+
+            <li>Class variables (@@)</li>
+
+            <li>Instance variables (@)</li>
+        </ul>
+    </div>
+    <pre class="cell code-cell">
+<code># Global variable
+class MyClass
+  $my_variable = "Hello!"
+end
+
+puts $my_variable</code>
+</pre>
+    <pre class="cell code-cell">
+<code># Class inheritance
+class ApplicationError
+  def display_error
+    puts "Error! Error!"
+  end
+end
+
+class ReallyBadError &lt; ApplicationError
+end
+
+err = ReallyBadError.new
+err.display_error
+
+# SuperBadError inherits the methods of the ApplicationError class</code>
+</pre>
+    <pre class="cell code-cell">
+<code># Superclass
+class DerivedClass &lt; Base
+  def some_method
+    super(optional args)
+      # Some stuff
+    end
+  end
+end
+
+# The "super" keyword looks for a method with the same name in the superclass (in this case, the "Base" class)</code>
+</pre>
+    <pre class="cell code-cell">
+<code>class Monkey
+end
+# =
+class Monkey; end. </code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h2 id="-virtual-computer-http-www-codecademy-com-courses-ruby-beginner-en-x5wcr-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-X5wcR/0/1?curriculum_id=5059f8619189a5000201fbcb">Virtual Computer</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code># Class method:
+class Machine
+  def Machine.hello
+    puts "Hello from the machine!"
+  end
+end</code>
+</pre>
+    <pre class="cell code-cell">
+<code># Initialize a class:
+class Person
+  def initialize(name)
+    @name = name
+  end
+end
+
+emma = Person.new("Emma") #The parameters go to the initialize method</code>
+</pre>
+    <pre class="cell code-cell">
+<code># Exercise code
+
+class Machine
+  @@users = {}
+
+  def initialize(username, password)
+    @username = username
+    @password = password
+    @@users[username] = password
+    @files = {}
+  end
+
+  def create(filename)
+    time = Time.now
+    @files[filename] = time
+    puts "#{filename} was created by #{@username} at #{time}."
+  end
+
+  def Machine.get_users
+    @@users
+  end
+end
+
+my_machine = Machine.new("eric", 01234)
+your_machine = Machine.new("you", 56789)
+
+my_machine.create("groceries.txt")
+your_machine.create("todo.txt")
+
+puts "Users: #{Machine.get_users}"</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h1 id="object-oriented-programming-ii">Object-Oriented Programming II</h1>
+
+        <h2 id="-object-oriented-programming-ii-http-www-codecademy-com-courses-ruby-beginner-en-zfe3o-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-zfe3o/0/1?curriculum_id=5059f8619189a5000201fbcb">Object-Oriented Programming II</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code>class Person
+  def initialize(name, age)
+    @name = name
+    @age = age
+  end
+
+  public    # This method can be called from outside the class.
+
+  def about_me
+    puts "I'm #{@name} and I'm #{@age} years old!"
+  end
+
+  private   # This method can't! &lt;-------------- !
+
+  def bank_account_number
+    @account_number = 12345
+    puts "My bank account number is #{@account_number}."
+  end
+end
+
+eric = Person.new("Eric", 26)
+eric.about_me
+eric.bank_account_number # Throws an error</code>
+</pre>
+    <pre class="cell code-cell">
+<code>class Person
+  attr_reader :name # access a variable
+  attr_writer :name # change that variable
+  def initialize(name)
+    @name = name
+  end
+end
+
+# We can read and write variables:
+# We just pass our instance variables (as symbols) to attr_reader or attr_writer.
+def name
+  @name
+end
+
+def name=(value)
+  @name = value
+end
+
+# Replace the name and job methods with attr_reader
+class Person
+    attr_reader :name
+    attr_writer :job
+  def initialize(name, job)
+    @name = name
+    @job = job
+  end
+
+end
+
+attr_accessor :job # = attr_reader :job PLUS attr_writer :job</code>
+</pre>
+    <pre class="cell code-cell">
+<code># Modules
+module Circle
+
+  PI = 3.141592653589793
+
+  def Circle.area(radius)
+    PI * radius**2
+  end
+
+  def Circle.circumference(radius)
+    2 * PI * radius
+  end
+end
+
+# Scope Resolution Operator:
+Math::PI # Looks for PI in the Math module
+Circle::PI # Looks for PI in the Circle module
+
+require 'date' # Use the "require" keyword to import modules
+puts Date.today
+
+class Angle
+  include Math # to import only within the class
+  def initialize(radians)
+    @radians = radians
+  end
+end</code>
+</pre>
+    <pre class="cell code-cell">
+<code># 12/18
+
+module Action
+  def jump
+    @distance = rand(4) + 2
+    puts "I jumped forward #{@distance} feet!"
+  end
+end
+
+class Rabbit
+  include Action
+  attr_reader :name
+  def initialize(name)
+    @name = name
+  end
+end
+
+class Cricket
+  include Action
+  attr_reader :name
+  def initialize(name)
+    @name = name
+  end
+end
+
+peter = Rabbit.new("Peter")
+jiminy = Cricket.new("Jiminy")
+
+peter.jump
+jiminy.jump
+
+# Output:
+# I jumped forward 5 feet!
+# I jumped forward 5 feet!</code>
+</pre>
+    <pre class="cell code-cell">
+<code># extend keyword
+
+# ThePresent has a .now method that we'll extend to TheHereAnd
+
+module ThePresent
+  def now
+    puts "It's #{Time.new.hour &gt; 12 ? Time.new.hour - 12 : Time.new.hour}:#{Time.new.min} #{Time.new.hour &gt; 12 ? 'PM' : 'AM'} (GMT)."
+  end
+end
+
+class TheHereAnd
+  extend ThePresent
+end
+
+TheHereAnd.now</code>
+</pre>
+
+    <div class="cell markdown-cell">
+        <h2 id="-banking-on-ruby-http-www-codecademy-com-courses-ruby-beginner-en-32cn3-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-32cN3/0/1?curriculum_id=5059f8619189a5000201fbcb">Banking on Ruby</a></h2>
+    </div>
+    <pre class="cell code-cell">
+<code>class Account
+  attr_reader :name, :balance
+  def initialize(name, balance=100) # Means that if only the name argument is passed, balance is set to 100
+    @name = name
+    @balance = balance
+  end
+
+  def display_balance(pin_number)
+    puts pin_number == pin ? "Balance: $#{@balance}." : pin_error
+  end
+
+  def withdraw(pin_number, amount)
+    if pin_number == pin
+      @balance -= amount
+      puts "Withdrew #{amount}. New balance: $#{@balance}."
+    else
+      puts pin_error
+    end
+  end
+
+  private
+
+  def pin
+    @pin = 1234
+  end
+
+  def pin_error
+    "Access denied: incorrect PIN."
+  end
+end
+
+my_account = Account.new("Eric", 1_000_000)
+my_account.withdraw(11, 500_000)
+my_account.display_balance(1234)
+my_account.withdraw(1234, 500_000)
+my_account.display_balance(1234)</code>
+</pre>
+</div>

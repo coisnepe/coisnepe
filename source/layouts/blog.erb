@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <%= partial 'head' %>
+  </head>
+  <body>
+
+    <%= partial 'partials/navbar' %>
+
+    <div id="main out-container" role="main">
+      <%= yield %>
+    </div>
+
+    <%= partial 'partials/blogsidebar' %>
+
+    <%= partial 'partials/footer' %>
+
+    <%= javascript_include_tag "all" %>
+
+  </body>
+</html>

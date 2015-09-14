@@ -1,4 +1,4 @@
-//= require turbolinks
+// require turbolinks
 //= require jquery
 //= require components/navbar
 //= require highlight.pack

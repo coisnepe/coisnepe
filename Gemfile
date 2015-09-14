@@ -17,4 +17,6 @@ gem "bourbon"
 
 gem 'redcarpet'
 
-gem "turbolinks", require: false
+gem 'nokogiri'
+
+#gem "turbolinks", require: false

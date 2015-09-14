@@ -1,9 +1,0 @@
----
-title: Mac OSX Apps
-date: 2015-09-13
-tags: OSX, tech
----
-ARTICLE
-#Best OSX apps
-##Here are my favorite apps for OSX.
-ARTICLE
