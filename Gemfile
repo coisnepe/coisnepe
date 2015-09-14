@@ -14,3 +14,7 @@ gem "middleman-livereload", "~> 3.3.0"
 gem "jquery-middleman"
 
 gem "bourbon"
+
+gem 'redcarpet'
+
+gem "turbolinks", require: false

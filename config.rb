@@ -26,12 +26,16 @@ activate :blog do |blog|
   blog.prefix = "blog/"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
-  blog.default_extension = ".md"
+  blog.default_extension = ".markdown"
   blog.summary_length = 250
   blog.sources = "{year}-{month}-{day}-{title}.html"
 end
 
 
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true
+
+page "/blog/*", layout: "blog"
 
 
 page "/feed.xml", layout: false

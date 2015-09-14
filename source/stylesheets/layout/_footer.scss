@@ -3,15 +3,17 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
   height: 200px;
-  .troll {
-    max-width: 50%;
-    align-items: flex-end;
-    img {
-      height: 200px;
-    }
+  background-color: $light-grey;
+  max-width: 100%;
+  margin: 0px 0px 0px 0px;
+  .social {
+    width: 100%;
+    text-align: center;
   }
-  .important:hover {
-    @include animation(scale 1.0s ease-in, slide 2.0s ease);
+  .social-links {
+    font-size: 100px;
+    color: $ghost-white;
   }
 }

@@ -3,7 +3,4 @@ title: iOS apps
 date: 2015-09-12
 tags: iOS, tech
 ---
-
-#iOS apps
-
-##My all time favorites
+#Best iOS apps
