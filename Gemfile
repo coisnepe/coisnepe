@@ -10,3 +10,7 @@ gem "builder", "~> 3.0"
 
 gem "middleman-deploy"
 gem "middleman-livereload", "~> 3.3.0"
+
+gem "jquery-middleman"
+
+gem "bourbon"

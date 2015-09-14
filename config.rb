@@ -5,6 +5,8 @@
 # Time.zone = "UTC"
 # Build-specific configuration
 configure :build do
+  activate :minify_css
+  activate :minify_javascript
 end
 
 configure :development do |development|
@@ -15,15 +17,18 @@ end
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.branch = "master"
+  deploy.build_before = true
 end
 
 activate :directory_indexes
 
-
-
 activate :blog do |blog|
+  blog.prefix = "blog/"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
+  blog.default_extension = ".md"
+  blog.summary_length = 250
+  blog.sources = "{year}-{month}-{day}-{title}.html"
 end
 
 
