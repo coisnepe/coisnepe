@@ -1,7 +1,7 @@
 ---
 title: Walkthrough Git
 date: 2015-09-14 16:11 UTC
-tags:
+tags: Git, Terminal
 ---
 
 <div class="post-content"><pre class="cell code-cell"><code class="bash hljs"><span class="hljs-comment"># Terminal commands</span>

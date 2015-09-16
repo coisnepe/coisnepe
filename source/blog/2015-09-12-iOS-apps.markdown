@@ -1,6 +1,6 @@
 ---
 title: iOS apps
 date: 2015-09-12
-tags: iOS, tech
+tags: iOS, Tech
 ---
 #Best iOS apps

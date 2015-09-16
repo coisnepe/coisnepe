@@ -1,7 +1,7 @@
 ---
 title: Codecademy notes - Ruby
 date: 2015-09-14 16:10 UTC
-tags:
+tags: Codecademy
 ---
 
 <ol>

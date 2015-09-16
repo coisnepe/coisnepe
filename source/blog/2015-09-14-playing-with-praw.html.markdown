@@ -1,7 +1,7 @@
 ---
 title: Playing with Praw
 date: 2015-09-14 16:11 UTC
-tags:
+tags: Python, Praw
 ---
 
 Reddit can be a goldmine of information, as well as something fun to play with programatically. Although you could piece something together to scrap it with relevant Python modules (BeautifulSoup, Scrapy, Requests…), you’re probably better off using their proprietary API: ‘Praw’.

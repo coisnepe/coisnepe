@@ -1,7 +1,7 @@
 ---
 title: Best Mac OSX Productivity Apps
 date: 2015-09-13
-tags: OSX, tech
+tags: OSX, Tech
 ---
 Here is a curated list of the OSX productivity apps I could not live without, and will make your workflow easier and much, much faster.
 
