@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/walkthrough-git.html"/>
     <id>http://blog.url.com/blog/2015/09/14/walkthrough-git.html</id>
     <published>2015-09-14T18:11:00+02:00</published>
-    <updated>2015-09-14T18:29:18+02:00</updated>
+    <updated>2015-09-16T10:45:28+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -81,7 +81,7 @@ upstream    git@github.com:lewagon/fullstack-challenges.git (push)
     <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/terminal-commands.html"/>
     <id>http://blog.url.com/blog/2015/09/14/terminal-commands.html</id>
     <published>2015-09-14T18:11:00+02:00</published>
-    <updated>2015-09-14T18:29:24+02:00</updated>
+    <updated>2015-09-16T10:45:22+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -92,7 +92,7 @@ upstream    git@github.com:lewagon/fullstack-challenges.git (push)
     <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/playing-with-praw.html"/>
     <id>http://blog.url.com/blog/2015/09/14/playing-with-praw.html</id>
     <published>2015-09-14T18:11:00+02:00</published>
-    <updated>2015-09-14T18:26:34+02:00</updated>
+    <updated>2015-09-16T10:45:16+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -125,23 +125,18 @@ for comment in test_user.get_comments(limit=50):
     <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/hop-on-le-wagon.html"/>
     <id>http://blog.url.com/blog/2015/09/14/hop-on-le-wagon.html</id>
     <published>2015-09-14T18:11:00+02:00</published>
-    <updated>2015-09-14T18:27:00+02:00</updated>
+    <updated>2015-09-16T12:34:47+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;a href="http://www.lewagon.org/"&gt;“Le Wagon”&lt;/a&gt; is a programming bootcamp that was founded in Paris two years ago, but has since expanded to Lebanon (&lt;a href="http://www.lewagon.org/fr/beirut"&gt;Beirut&lt;/a&gt;), Belgium (&lt;a href="http://www.lewagon.org/fr/brussels"&gt;Brussels&lt;/a&gt;) and the US (&lt;a href="http://www.lewagon.org/fr/losangeles"&gt;Los Angeles&lt;/a&gt;), as well as other French cities (&lt;a href="http://www.lewagon.org/lille"&gt;Lille&lt;/a&gt; and &lt;a href="http://www.lewagon.org/bordeaux"&gt;Bordeaux&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Their main offer is a 9 weeks long Full Stack bootcamp in which you’ll learn how to make web apps with Ruby on Rails, one of the most popular frameworks these days -it’s based on Ruby. They also teach html, css, Javascript, obviously, in addition to git.&lt;/p&gt;
-
-&lt;p&gt;I’ll be attending that Full Stack program from mid-July this year to mid-September. Can’t wait to get things going!&lt;/p&gt;
-</content>
+    <content type="html"></content>
   </entry>
   <entry>
     <title>Codecademy notes - Ruby</title>
     <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/codecademy-notes-ruby.html"/>
     <id>http://blog.url.com/blog/2015/09/14/codecademy-notes-ruby.html</id>
     <published>2015-09-14T18:10:00+02:00</published>
-    <updated>2015-09-16T10:15:42+02:00</updated>
+    <updated>2015-09-16T10:44:28+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
