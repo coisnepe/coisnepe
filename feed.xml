@@ -956,7 +956,7 @@ my_account.display_balance(1234)&lt;/code&gt;
     <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/best-web-dev-apps-for-mac-osx.html"/>
     <id>http://blog.url.com/blog/2015/09/14/best-web-dev-apps-for-mac-osx.html</id>
     <published>2015-09-14T18:10:00+02:00</published>
-    <updated>2015-09-14T19:47:47+02:00</updated>
+    <updated>2015-09-16T16:31:44+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -964,51 +964,62 @@ my_account.display_balance(1234)&lt;/code&gt;
 
 &lt;h5&gt;FTP&lt;/h5&gt;
 
+&lt;p&gt;&lt;img src="https://panic.com/transmit/img/card-screenshot1.png" class="image-article" /&gt;&lt;/p&gt;
+
 &lt;p&gt;Arguably the neatest Mac FTP client out there, it’s just fast and lets you access your servers or Amazon S3 buckets in the blink of an eye.
 &lt;a href="https://itunes.apple.com/fr/app/transmit/id403388562?l=en&amp;amp;mt=12"&gt;Link to the Mac App Store&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://panic.com/transmit/img/card-screenshot1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
 
 &lt;h3&gt;Sublime Text 3&lt;/h3&gt;
 
 &lt;h5&gt;Text Editor&lt;/h5&gt;
 
+&lt;p&gt;&lt;img src="http://i.stack.imgur.com/BzxFc.jpg" class="image-article" /&gt;&lt;/p&gt;
+
 &lt;p&gt;One of the most popular text editors for Mac, it really shines by its functionality, ease of use and customisability. You can seamlessly extend the base software with tons of plugins to allow folder navigation within the project, have a Python IDE one click away, git integration etc.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="https://www.sublimetext.com/"&gt;Sublime Text website&lt;/a&gt;
-&lt;img src="http://i.stack.imgur.com/BzxFc.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sublimetext.com/"&gt;Sublime Text website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
 
 &lt;h3&gt;Dash&lt;/h3&gt;
 
 &lt;h5&gt;Programming docs&lt;/h5&gt;
 
+&lt;p&gt;&lt;img src="http://a1.mzstatic.com/us/r30/Purple5/v4/4a/6b/3f/4a6b3f67-dae6-5f65-f171-1bbc4b1a7c83/screen800x500.jpeg" class="image-article" /&gt;&lt;/p&gt;
+
 &lt;p&gt;Dash lets you download official documentation for all major languages, from HTML to Python, as well as frameworks such as Bootstrap, Rails or Django. You can also access docs compiled by third parties: Sublime Text shortcuts, Regex cheatsheet, Ruby gems or Python modules, etc. It’s freemium: you have access to most of the app but are limited to one query per 10 seconds. Well worth the $10 cost.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://a1.mzstatic.com/us/r30/Purple5/v4/4a/6b/3f/4a6b3f67-dae6-5f65-f171-1bbc4b1a7c83/screen800x500.jpeg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
 
 &lt;h3&gt;Quiver&lt;/h3&gt;
 
 &lt;h5&gt;Evernote for developers&lt;/h5&gt;
 
+&lt;p&gt;&lt;img src="http://a4.mzstatic.com/us/r30/Purple1/v4/5e/fe/37/5efe379a-2638-97f4-bfcf-d539f8970713/screen800x500.jpeg" class="image-article" /&gt;&lt;/p&gt;
+
 &lt;p&gt;I discovered Quiver a few weeks ago and couldn’t live without it now. It allows you to create notes split in various cells that can each have their own syntax: one with Ruby syntax highlighting and the following with Markdown for comments. It can export PDFs and full HTML pages (check out my “Learning Ruby on Codecademy” post to see what it’s capable of)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://a4.mzstatic.com/us/r30/Purple1/v4/5e/fe/37/5efe379a-2638-97f4-bfcf-d539f8970713/screen800x500.jpeg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
 
 &lt;h3&gt;MAMP&lt;/h3&gt;
 
 &lt;h5&gt;Setup a local server&lt;/h5&gt;
 
+&lt;p&gt;&lt;img src="https://www.mamp.info/en/images/screenshots/en_mamp-start.jpg" class="image-article" /&gt;&lt;/p&gt;
+
 &lt;p&gt;Pretty straightforward: create a server on your computer to develop apps. MAMP stands for Mac Apache Mysql PHP, which kind of is self-explanatory? Very stable, and the free version fulfils my needs for now.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://www.mamp.info/en/images/screenshots/en_mamp-start.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
 
 &lt;h3&gt;Bonus: Time Out Free&lt;/h3&gt;
 
 &lt;h5&gt;Your eyes and body will thank you&lt;/h5&gt;
 
-&lt;p&gt;Ever heard of the 20/20/20 rule? Every 20 minutes look for 20 seconds 20 meters away. It makes the world of a difference by the end of the day, between having sat 8 hours straight with your eyes riveted on your computer screen, and taking a walk once in a while to check out what’s happening around you. Our eyes are a fragile asset, take care of them!&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://www.dejal.com/timeout/images/overview.png" class="image-article" /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://www.dejal.com/timeout/images/overview.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Ever heard of the 20/20/20 rule? Every 20 minutes look for 20 seconds 20 meters away. It makes the world of a difference by the end of the day, between having sat 8 hours straight with your eyes riveted on your computer screen, and taking a walk once in a while to check out what’s happening around you. Our eyes are a fragile asset, take care of them!&lt;/p&gt;
 
 &lt;p&gt;What I consider to be the best programming apps installed on my computer...&lt;/p&gt;
 </content>
