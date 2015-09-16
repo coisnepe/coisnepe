@@ -2,11 +2,17 @@
 # Blog settings
 ###
 
+
+#activate :bh
+
+
 # Time.zone = "UTC"
 # Build-specific configuration
 configure :build do
+  activate :autoprefixer
   activate :minify_css
   activate :minify_javascript
+  activate :minify_html
 end
 
 configure :development do |development|
@@ -25,7 +31,6 @@ activate :directory_indexes
 activate :blog do |blog|
   blog.prefix = "blog/"
   blog.tag_template = "tag.html"
-  blog.calendar_template = "calendar.html"
   blog.default_extension = ".markdown"
   blog.summary_length = 250
   blog.sources = "{year}-{month}-{day}-{title}.html"
@@ -36,6 +41,7 @@ set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true
 
 page "/blog/*", layout: "blog"
+page "/blog/tags/*", layout: "tags"
 
 
 page "/feed.xml", layout: false
@@ -45,5 +51,3 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
-
-

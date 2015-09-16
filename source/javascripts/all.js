@@ -1,6 +1,5 @@
-// require turbolinks
 //= require jquery
-//= require components/navbar
+//= require bootstrap
 //= require highlight.pack
 
 

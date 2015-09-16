@@ -15,8 +15,16 @@ gem "jquery-middleman"
 
 gem "bourbon"
 
-gem 'redcarpet'
+gem "redcarpet"
 
-gem 'nokogiri'
+gem "nokogiri"
+
+gem "middleman-minify-html"
+
+gem 'middleman-autoprefixer'
+
+
 
 #gem "turbolinks", require: false
+
+#gem "bh", '~> 1.2'

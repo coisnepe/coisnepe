@@ -5,120 +5,120 @@ tags:
 ---
 
 <ol>
-    <li><h1 id="tabli"><a href="#introduction-to-ruby">Introduction to Ruby</a></h1>
+    <li><h3 id="tabli"><a href="#introduction-to-ruby">Introduction to Ruby</a></h3>
         <ol>
-            <li><h2 id="tabli"><a href="#-introduction-to-ruby-http-www-codecademy-com-courses-ruby-beginner-en-d1ylq-0-1-curriculum_id-5059f8619189a5000201fbcb-">Introduction to Ruby</a></h2></li>
+            <li><h5 id="tabli"><a href="#-introduction-to-ruby-http-www-codecademy-com-courses-ruby-beginner-en-d1ylq-0-1-curriculum_id-5059f8619189a5000201fbcb-">Introduction to Ruby</a></h5></li>
         </ol>
     </li>
 
-    <li><h1 id="tabli"><a href="#methods">Methods</a></h1>
+    <li><h3 id="tabli"><a href="#methods">Methods</a></h3>
         <ol>
-            <li><h2 id="tabli"><a href="#-dealing-with-inputs-http-www-codecademy-com-courses-ruby-beginner-en-mxxx5-0-1-curriculum_id-5059f8619189a5000201fbcb-">Dealing with inputs</a></h2></li>
+            <li><h5 id="tabli"><a href="#-dealing-with-inputs-http-www-codecademy-com-courses-ruby-beginner-en-mxxx5-0-1-curriculum_id-5059f8619189a5000201fbcb-">Dealing with inputs</a></h5></li>
         </ol>
     </li>
 
-    <li><h1 id="tabli"><a href="#control-flow-in-ruby">Control Flow in Ruby</a></h1>
+    <li><h3 id="tabli"><a href="#control-flow-in-ruby">Control Flow in Ruby</a></h3>
         <ol>
-            <li><h2 id="tabli"><a href="#-control-flow-in-ruby-http-www-codecademy-com-courses-ruby-beginner-en-nfcz7-0-1-curriculum_id-5059f8619189a5000201fbcb-">Control Flow in Ruby</a></h2></li>
-            <li><h2 id="tabli"><a href="#-thith-means-war-http-www-codecademy-com-courses-ruby-beginner-en-jdnde-0-1-curriculum_id-5059f8619189a5000201fbcb-">Thith Means War!</a></h2></li>
+            <li><h5 id="tabli"><a href="#-control-flow-in-ruby-http-www-codecademy-com-courses-ruby-beginner-en-nfcz7-0-1-curriculum_id-5059f8619189a5000201fbcb-">Control Flow in Ruby</a></h5></li>
+            <li><h5 id="tabli"><a href="#-thith-means-war-http-www-codecademy-com-courses-ruby-beginner-en-jdnde-0-1-curriculum_id-5059f8619189a5000201fbcb-">Thith Means War!</a></h5></li>
         </ol>
     </li>
 
-    <li><h1 id="tabli"><a href="#looping-with-ruby">Looping with Ruby</a></h1>
+    <li><h3 id="tabli"><a href="#looping-with-ruby">Looping with Ruby</a></h3>
         <ol>
-            <li><h2 id="tabli"><a href="#-loops-iterators-http-www-codecademy-com-courses-ruby-beginner-en-xycn1-0-1-curriculum_id-5059f8619189a5000201fbcb-">Loops &amp; Iterators</a></h2></li>
-            <li><h2 id="tabli"><a href="#-redacted-http-www-codecademy-com-courses-ruby-beginner-en-mzrz6-0-1-curriculum_id-5059f8619189a5000201fbcb-">Redacted!</a></h2></li>
+            <li><h5 id="tabli"><a href="#-loops-iterators-http-www-codecademy-com-courses-ruby-beginner-en-xycn1-0-1-curriculum_id-5059f8619189a5000201fbcb-">Loops &amp; Iterators</a></h5></li>
+            <li><h5 id="tabli"><a href="#-redacted-http-www-codecademy-com-courses-ruby-beginner-en-mzrz6-0-1-curriculum_id-5059f8619189a5000201fbcb-">Redacted!</a></h5></li>
         </ol>
     </li>
 
-    <li><h1 id="tabli"><a href="#arrays-and-hashes">Arrays and Hashes</a></h1>
+    <li><h3 id="tabli"><a href="#arrays-and-hashes">Arrays and Hashes</a></h3>
         <ol>
-            <li><h2 id="tabli"><a href="#-data-structures-http-www-codecademy-com-courses-ruby-beginner-en-f3lob-0-1-curriculum_id-5059f8619189a5000201fbcb-">Data Structures</a></h2></li>
+            <li><h5 id="tabli"><a href="#-data-structures-http-www-codecademy-com-courses-ruby-beginner-en-f3lob-0-1-curriculum_id-5059f8619189a5000201fbcb-">Data Structures</a></h5></li>
 
             <li>
-              <h2 id="tabli"><a href="#-create-a-histogram-http-www-codecademy-com-courses-ruby-beginner-en-693pd-0-1-curriculum_id-5059f8619189a5000201fbcb-">Create a Histogram</a></h2>
-            </li>
-        </ol>
-    </li>
-
-    <li>
-
-
-        <h1 id="tabli"><a href="#blocks-and-sorting">Blocks and Sorting</a></h1>
-
-        <ol>
-            <li>
-              <h2 id="tabli"><a href="#-methods-blocks-and-sorting-http-www-codecademy-com-courses-ruby-beginner-en-et4bu-0-1-curriculum_id-5059f8619189a5000201fbcb-">Methods, Blocks and Sorting</a></h2>
-            </li>
-
-            <li>
-                <h2 id="tabli"><a href="#-ordering-your-library-http-www-codecademy-com-courses-ruby-beginner-en-noho7-0-1-curriculum_id-5059f8619189a5000201fbcb-">Ordering Your Library</a></h2>
+              <h5 id="tabli"><a href="#-create-a-histogram-http-www-codecademy-com-courses-ruby-beginner-en-693pd-0-1-curriculum_id-5059f8619189a5000201fbcb-">Create a Histogram</a></h5>
             </li>
         </ol>
     </li>
 
     <li>
-        <h1 id="tabli"><a href="#hashes-and-symbols">Hashes and Symbols</a></h1>
+
+
+        <h3 id="tabli"><a href="#blocks-and-sorting">Blocks and Sorting</a></h3>
 
         <ol>
             <li>
-                <h2 id="tabli"><a href="#-hashes-and-symbols-http-www-codecademy-com-courses-ruby-beginner-en-qn7qw-0-1-curriculum_id-5059f8619189a5000201fbcb-">Hashes and Symbols</a></h2>
+              <h5 id="tabli"><a href="#-methods-blocks-and-sorting-http-www-codecademy-com-courses-ruby-beginner-en-et4bu-0-1-curriculum_id-5059f8619189a5000201fbcb-">Methods, Blocks and Sorting</a></h5>
             </li>
 
             <li>
-                <h2 id="tabli"><a href="#-a-night-at-the-movies-http-www-codecademy-com-courses-ruby-beginner-en-0i8v1-0-1-curriculum_id-5059f8619189a5000201fbcb-">A Night at the Movies</a></h2>
+                <h5 id="tabli"><a href="#-ordering-your-library-http-www-codecademy-com-courses-ruby-beginner-en-noho7-0-1-curriculum_id-5059f8619189a5000201fbcb-">Ordering Your Library</a></h5>
             </li>
         </ol>
     </li>
 
     <li>
-        <h1 id="tabli"><a href="#refactoring">Refactoring</a></h1>
+        <h3 id="tabli"><a href="#hashes-and-symbols">Hashes and Symbols</a></h3>
 
         <ol>
             <li>
-                <h2 id="tabli"><a href="#-the-zen-of-ruby-http-www-codecademy-com-courses-ruby-beginner-en-1o8mb-0-1-curriculum_id-5059f8619189a5000201fbcb-">The Zen of Ruby</a></h2>
+                <h5 id="tabli"><a href="#-hashes-and-symbols-http-www-codecademy-com-courses-ruby-beginner-en-qn7qw-0-1-curriculum_id-5059f8619189a5000201fbcb-">Hashes and Symbols</a></h5>
             </li>
 
             <li>
-                <h2 id="tabli"><a href="#-the-refactor-factory-http-www-codecademy-com-courses-ruby-beginner-en-zjd2y-0-1-curriculum_id-5059f8619189a5000201fbcb-">The Refactor Factory</a></h2>
+                <h5 id="tabli"><a href="#-a-night-at-the-movies-http-www-codecademy-com-courses-ruby-beginner-en-0i8v1-0-1-curriculum_id-5059f8619189a5000201fbcb-">A Night at the Movies</a></h5>
             </li>
         </ol>
     </li>
 
     <li>
-        <h1 id="tabli"><a href="#blocks-procs-and-lambdas">Blocks, Procs and Lambdas</a></h1>
+        <h3 id="tabli"><a href="#refactoring">Refactoring</a></h3>
 
         <ol>
             <li>
-                <h2 id="tabli"><a href="#-blocks-procs-and-lambdas-http-www-codecademy-com-courses-ruby-beginner-en-l3zci-0-1-curriculum_id-5059f8619189a5000201fbcb-">Blocks, Procs and Lambdas</a></h2>
+                <h5 id="tabli"><a href="#-the-zen-of-ruby-http-www-codecademy-com-courses-ruby-beginner-en-1o8mb-0-1-curriculum_id-5059f8619189a5000201fbcb-">The Zen of Ruby</a></h5>
+            </li>
+
+            <li>
+                <h5 id="tabli"><a href="#-the-refactor-factory-http-www-codecademy-com-courses-ruby-beginner-en-zjd2y-0-1-curriculum_id-5059f8619189a5000201fbcb-">The Refactor Factory</a></h5>
             </li>
         </ol>
     </li>
 
     <li>
-        <h1 id="tabli"><a href="#object-oriented-programming-part-1">Object-Oriented Programming, Part 1</a></h1>
+        <h3 id="tabli"><a href="#blocks-procs-and-lambdas">Blocks, Procs and Lambdas</a></h3>
 
         <ol>
             <li>
-                <h2 id="tabli"><a href="#-object-oriented-programming-i-http-www-codecademy-com-courses-ruby-beginner-en-mfiq6-0-1-curriculum_id-5059f8619189a5000201fbcb-">Object-Oriented Programming I</a></h2>
-            </li>
-
-            <li>
-                <h2 id="tabli"><a href="#-virtual-computer-http-www-codecademy-com-courses-ruby-beginner-en-x5wcr-0-1-curriculum_id-5059f8619189a5000201fbcb-">Virtual Computer</a></h2>
+                <h5 id="tabli"><a href="#-blocks-procs-and-lambdas-http-www-codecademy-com-courses-ruby-beginner-en-l3zci-0-1-curriculum_id-5059f8619189a5000201fbcb-">Blocks, Procs and Lambdas</a></h5>
             </li>
         </ol>
     </li>
 
     <li>
-        <h1 id="tabli"><a href="#object-oriented-programming-ii">Object-Oriented Programming II</a></h1>
+        <h3 id="tabli"><a href="#object-oriented-programming-part-1">Object-Oriented Programming, Part 1</a></h3>
 
         <ol>
             <li>
-                <h2 id="tabli"><a href="#-object-oriented-programming-ii-http-www-codecademy-com-courses-ruby-beginner-en-zfe3o-0-1-curriculum_id-5059f8619189a5000201fbcb-">Object-Oriented Programming II</a></h2>
+                <h5 id="tabli"><a href="#-object-oriented-programming-i-http-www-codecademy-com-courses-ruby-beginner-en-mfiq6-0-1-curriculum_id-5059f8619189a5000201fbcb-">Object-Oriented Programming I</a></h5>
             </li>
 
             <li>
-                <h2 id="tabli"><a href="#-banking-on-ruby-http-www-codecademy-com-courses-ruby-beginner-en-32cn3-0-1-curriculum_id-5059f8619189a5000201fbcb-">Banking on Ruby</a></h2>
+                <h5 id="tabli"><a href="#-virtual-computer-http-www-codecademy-com-courses-ruby-beginner-en-x5wcr-0-1-curriculum_id-5059f8619189a5000201fbcb-">Virtual Computer</a></h5>
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        <h3 id="tabli"><a href="#object-oriented-programming-ii">Object-Oriented Programming II</a></h3>
+
+        <ol>
+            <li>
+                <h5 id="tabli"><a href="#-object-oriented-programming-ii-http-www-codecademy-com-courses-ruby-beginner-en-zfe3o-0-1-curriculum_id-5059f8619189a5000201fbcb-">Object-Oriented Programming II</a></h5>
+            </li>
+
+            <li>
+                <h5 id="tabli"><a href="#-banking-on-ruby-http-www-codecademy-com-courses-ruby-beginner-en-32cn3-0-1-curriculum_id-5059f8619189a5000201fbcb-">Banking on Ruby</a></h5>
             </li>
         </ol>
     </li>
@@ -128,9 +128,9 @@ tags:
 
 <div id="contentarea">
     <div class="cell markdown-cell">
-        <h1 id="introduction-to-ruby">Introduction to Ruby</h1><a href="http://www.codecademy.com/en/tracks/ruby">http://www.codecademy.com/en/tracks/ruby</a>
+        <h3 id="introduction-to-ruby">Introduction to Ruby</h3><a href="http://www.codecademy.com/en/tracks/ruby">http://www.codecademy.com/en/tracks/ruby</a>
 
-        <h2 id="-introduction-to-ruby-http-www-codecademy-com-courses-ruby-beginner-en-d1ylq-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq/0/1?curriculum_id=5059f8619189a5000201fbcb">Introduction to Ruby</a></h2>Printing in Ruby
+        <h5 id="-introduction-to-ruby-http-www-codecademy-com-courses-ruby-beginner-en-d1ylq-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq/0/1?curriculum_id=5059f8619189a5000201fbcb">Introduction to Ruby</a></h5>Printing in Ruby
     </div>
     <pre class="cell code-cell">
       <code>print "regular, just print to screen"
@@ -139,7 +139,7 @@ tags:
     </pre>
 
     <div class="cell markdown-cell">
-        <h2 id="methods">Methods</h2>
+        <h5 id="methods">Methods</h5>
     </div>
     <pre class="cell code-cell">
       <code class="ruby">
@@ -162,7 +162,7 @@ tags:
     </pre>
 
     <div class="cell markdown-cell">
-        <h2 id="-dealing-with-inputs-http-www-codecademy-com-courses-ruby-beginner-en-mxxx5-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-MxXx5/0/1?curriculum_id=5059f8619189a5000201fbcb">Dealing with inputs</a></h2>
+        <h5 id="-dealing-with-inputs-http-www-codecademy-com-courses-ruby-beginner-en-mxxx5-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-MxXx5/0/1?curriculum_id=5059f8619189a5000201fbcb">Dealing with inputs</a></h5>
     </div>
     <pre class="cell code-cell">
 <code>print "What is your name?"
@@ -174,9 +174,9 @@ puts "Your name is #{name}"</code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h1 id="control-flow-in-ruby">Control Flow in Ruby</h1>
+        <h3 id="control-flow-in-ruby">Control Flow in Ruby</h3>
 
-        <h2 id="-control-flow-in-ruby-http-www-codecademy-com-courses-ruby-beginner-en-nfcz7-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7/0/1?curriculum_id=5059f8619189a5000201fbcb">Control Flow in Ruby</a></h2>
+        <h5 id="-control-flow-in-ruby-http-www-codecademy-com-courses-ruby-beginner-en-nfcz7-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7/0/1?curriculum_id=5059f8619189a5000201fbcb">Control Flow in Ruby</a></h5>
     </div>
     <pre class="cell code-cell">
 <code>print "Enter an integer:"
@@ -221,7 +221,7 @@ true || false || nil # Booleans</code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h2 id="-thith-means-war-http-www-codecademy-com-courses-ruby-beginner-en-jdnde-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-JdNDe/0/1?curriculum_id=5059f8619189a5000201fbcb">Thith Means War!</a></h2>
+        <h5 id="-thith-means-war-http-www-codecademy-com-courses-ruby-beginner-en-jdnde-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-JdNDe/0/1?curriculum_id=5059f8619189a5000201fbcb">Thith Means War!</a></h5>
     </div>
     <pre class="cell code-cell">
 <code>input_test = "six sense"
@@ -231,9 +231,9 @@ if input_test.include? "s" # ' ? ' to evaluate if true or false
 </pre>
 
     <div class="cell markdown-cell">
-        <h1 id="looping-with-ruby">Looping with Ruby</h1>
+        <h3 id="looping-with-ruby">Looping with Ruby</h3>
 
-        <h2 id="-loops-iterators-http-www-codecademy-com-courses-ruby-beginner-en-xycn1-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-XYcN1/0/1?curriculum_id=5059f8619189a5000201fbcb">Loops &amp; Iterators</a></h2>
+        <h5 id="-loops-iterators-http-www-codecademy-com-courses-ruby-beginner-en-xycn1-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-XYcN1/0/1?curriculum_id=5059f8619189a5000201fbcb">Loops &amp; Iterators</a></h5>
     </div>
     <pre class="cell code-cell">
 <code># ----- Iterators -----
@@ -274,7 +274,7 @@ this_array.each { |item| puts item}
 </pre>
 
     <div class="cell markdown-cell">
-        <h2 id="-redacted-http-www-codecademy-com-courses-ruby-beginner-en-mzrz6-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-mzrZ6/0/1?curriculum_id=5059f8619189a5000201fbcb">Redacted!</a></h2>
+        <h5 id="-redacted-http-www-codecademy-com-courses-ruby-beginner-en-mzrz6-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-mzrZ6/0/1?curriculum_id=5059f8619189a5000201fbcb">Redacted!</a></h5>
     </div>
     <pre class="cell code-cell">
 <code>sentence = "This is going to be split"
@@ -282,9 +282,9 @@ words = sentence.split(" ")</code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h1 id="arrays-and-hashes">Arrays and Hashes</h1>
+        <h3 id="arrays-and-hashes">Arrays and Hashes</h3>
 
-        <h2 id="-data-structures-http-www-codecademy-com-courses-ruby-beginner-en-f3lob-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-F3loB/0/1?curriculum_id=5059f8619189a5000201fbcb">Data Structures</a></h2>
+        <h5 id="-data-structures-http-www-codecademy-com-courses-ruby-beginner-en-f3lob-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-F3loB/0/1?curriculum_id=5059f8619189a5000201fbcb">Data Structures</a></h5>
     </div>
     <pre class="cell code-cell">
       <code># ----- Arrays -----
@@ -316,16 +316,16 @@ words = sentence.split(" ")</code>
     </pre>
 
     <div class="cell markdown-cell">
-        <h2 id="-create-a-histogram-http-www-codecademy-com-courses-ruby-beginner-en-693pd-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-693PD/0/1?curriculum_id=5059f8619189a5000201fbcb">Create a Histogram</a></h2>
+        <h5 id="-create-a-histogram-http-www-codecademy-com-courses-ruby-beginner-en-693pd-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-693PD/0/1?curriculum_id=5059f8619189a5000201fbcb">Create a Histogram</a></h5>
     </div>
     <pre class="cell code-cell">
 <code>frequencies = Hash.new(0) # Default value of 0 to all keys</code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h1 id="blocks-and-sorting">Blocks and Sorting</h1>
+        <h3 id="blocks-and-sorting">Blocks and Sorting</h3>
 
-        <h2 id="-methods-blocks-and-sorting-http-www-codecademy-com-courses-ruby-beginner-en-et4bu-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-ET4bU/0/1?curriculum_id=5059f8619189a5000201fbcb">Methods, Blocks and Sorting</a></h2>
+        <h5 id="-methods-blocks-and-sorting-http-www-codecademy-com-courses-ruby-beginner-en-et4bu-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-ET4bU/0/1?curriculum_id=5059f8619189a5000201fbcb">Methods, Blocks and Sorting</a></h5>
     </div>
     <pre class="cell code-cell">
 <code>def welcome(n)
@@ -350,7 +350,7 @@ books.sort! { |firstBook, secondBook| firstBook &lt;=&gt; secondBook }
 </pre>
 
     <div class="cell markdown-cell">
-        <h2 id="-ordering-your-library-http-www-codecademy-com-courses-ruby-beginner-en-noho7-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-nOho7/0/1?curriculum_id=5059f8619189a5000201fbcb">Ordering Your Library</a></h2>
+        <h5 id="-ordering-your-library-http-www-codecademy-com-courses-ruby-beginner-en-noho7-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-nOho7/0/1?curriculum_id=5059f8619189a5000201fbcb">Ordering Your Library</a></h5>
     </div>
     <pre class="cell code-cell">
 <code>def alphabetize(arr, rev=false)
@@ -368,9 +368,9 @@ puts alphabetize(numbers, true)</code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h1 id="hashes-and-symbols">Hashes and Symbols</h1>
+        <h3 id="hashes-and-symbols">Hashes and Symbols</h3>
 
-        <h2 id="-hashes-and-symbols-http-www-codecademy-com-courses-ruby-beginner-en-qn7qw-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw/0/1?curriculum_id=5059f8619189a5000201fbcb">Hashes and Symbols</a></h2>
+        <h5 id="-hashes-and-symbols-http-www-codecademy-com-courses-ruby-beginner-en-qn7qw-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw/0/1?curriculum_id=5059f8619189a5000201fbcb">Hashes and Symbols</a></h5>
     </div>
     <pre class="cell code-cell">
 <code># Hash literal notation:
@@ -385,7 +385,7 @@ new_hash[newkey] = newvalue</code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h2 id="-a-night-at-the-movies-http-www-codecademy-com-courses-ruby-beginner-en-0i8v1-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-0i8v1/0/1?curriculum_id=5059f8619189a5000201fbcb">A Night at the Movies</a></h2>
+        <h5 id="-a-night-at-the-movies-http-www-codecademy-com-courses-ruby-beginner-en-0i8v1-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-0i8v1/0/1?curriculum_id=5059f8619189a5000201fbcb">A Night at the Movies</a></h5>
     </div>
     <pre class="cell code-cell">
 <code># The case statement
@@ -400,11 +400,11 @@ end</code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h1 id="refactoring">Refactoring</h1>
+        <h3 id="refactoring">Refactoring</h3>
     </div>
 
     <div class="cell markdown-cell">
-        <h2 id="-the-zen-of-ruby-http-www-codecademy-com-courses-ruby-beginner-en-1o8mb-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb/0/1?curriculum_id=5059f8619189a5000201fbcb">The Zen of Ruby</a></h2>
+        <h5 id="-the-zen-of-ruby-http-www-codecademy-com-courses-ruby-beginner-en-1o8mb-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb/0/1?curriculum_id=5059f8619189a5000201fbcb">The Zen of Ruby</a></h5>
     </div>
     <pre class="cell code-cell">
 <code># Ternary conditional expression
@@ -424,16 +424,16 @@ school &lt;&lt; "Wagon" # "Push" something to a string or array
 </pre>
 
     <div class="cell markdown-cell">
-        <h2 id="-the-refactor-factory-http-www-codecademy-com-courses-ruby-beginner-en-zjd2y-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-Zjd2y/0/1?curriculum_id=5059f8619189a5000201fbcb">The Refactor Factory</a></h2>
+        <h5 id="-the-refactor-factory-http-www-codecademy-com-courses-ruby-beginner-en-zjd2y-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-Zjd2y/0/1?curriculum_id=5059f8619189a5000201fbcb">The Refactor Factory</a></h5>
     </div>
     <pre class="cell code-cell">
 <code># Tricks to make better and more aesthetic code</code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h1 id="blocks-procs-and-lambdas">Blocks, Procs and Lambdas</h1>
+        <h3 id="blocks-procs-and-lambdas">Blocks, Procs and Lambdas</h3>
 
-        <h2 id="-blocks-procs-and-lambdas-http-www-codecademy-com-courses-ruby-beginner-en-l3zci-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI/0/1?curriculum_id=5059f8619189a5000201fbcb">Blocks, Procs and Lambdas</a></h2>
+        <h5 id="-blocks-procs-and-lambdas-http-www-codecademy-com-courses-ruby-beginner-en-l3zci-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI/0/1?curriculum_id=5059f8619189a5000201fbcb">Blocks, Procs and Lambdas</a></h5>
     </div>
     <pre class="cell code-cell">
 <code>def yield_name(name)
@@ -506,9 +506,9 @@ youngpeople = ages.select(&amp;under_100)</code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h1 id="object-oriented-programming-part-1">Object-Oriented Programming, Part 1</h1>
+        <h3 id="object-oriented-programming-part-1">Object-Oriented Programming, Part 1</h3>
 
-        <h2 id="-object-oriented-programming-i-http-www-codecademy-com-courses-ruby-beginner-en-mfiq6-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6/0/1?curriculum_id=5059f8619189a5000201fbcb">Object-Oriented Programming I</a></h2>
+        <h5 id="-object-oriented-programming-i-http-www-codecademy-com-courses-ruby-beginner-en-mfiq6-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6/0/1?curriculum_id=5059f8619189a5000201fbcb">Object-Oriented Programming I</a></h5>
     </div>
     <pre class="cell code-cell">
 <code>class Person
@@ -575,7 +575,7 @@ class Monkey; end. </code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h2 id="-virtual-computer-http-www-codecademy-com-courses-ruby-beginner-en-x5wcr-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-X5wcR/0/1?curriculum_id=5059f8619189a5000201fbcb">Virtual Computer</a></h2>
+        <h5 id="-virtual-computer-http-www-codecademy-com-courses-ruby-beginner-en-x5wcr-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-X5wcR/0/1?curriculum_id=5059f8619189a5000201fbcb">Virtual Computer</a></h5>
     </div>
     <pre class="cell code-cell">
 <code># Class method:
@@ -629,9 +629,9 @@ puts "Users: #{Machine.get_users}"</code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h1 id="object-oriented-programming-ii">Object-Oriented Programming II</h1>
+        <h3 id="object-oriented-programming-ii">Object-Oriented Programming II</h3>
 
-        <h2 id="-object-oriented-programming-ii-http-www-codecademy-com-courses-ruby-beginner-en-zfe3o-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-zfe3o/0/1?curriculum_id=5059f8619189a5000201fbcb">Object-Oriented Programming II</a></h2>
+        <h5 id="-object-oriented-programming-ii-http-www-codecademy-com-courses-ruby-beginner-en-zfe3o-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-zfe3o/0/1?curriculum_id=5059f8619189a5000201fbcb">Object-Oriented Programming II</a></h5>
     </div>
     <pre class="cell code-cell">
 <code>class Person
@@ -774,7 +774,7 @@ TheHereAnd.now</code>
 </pre>
 
     <div class="cell markdown-cell">
-        <h2 id="-banking-on-ruby-http-www-codecademy-com-courses-ruby-beginner-en-32cn3-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-32cN3/0/1?curriculum_id=5059f8619189a5000201fbcb">Banking on Ruby</a></h2>
+        <h5 id="-banking-on-ruby-http-www-codecademy-com-courses-ruby-beginner-en-32cn3-0-1-curriculum_id-5059f8619189a5000201fbcb-"><a href="http://www.codecademy.com/courses/ruby-beginner-en-32cN3/0/1?curriculum_id=5059f8619189a5000201fbcb">Banking on Ruby</a></h5>
     </div>
     <pre class="cell code-cell">
 <code>class Account
