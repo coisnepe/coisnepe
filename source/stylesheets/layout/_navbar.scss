@@ -1,29 +1,8 @@
-nav{
-  display: flex;
-  width:95%;
-  margin:0 auto;
-  text-align: center;
+.icon-bar {
+  color: black;
+  background-color: black;
 }
 
-nav > a{
-  font-family:Helvetica,Arial,sans-serif;
-  font-weight:bold;
-  text-decoration:none;
-  padding:10px;
-  color:#007ac9;
-  flex: 1 1 auto;
-  text-align:center;
-  font-size: 30px;
-}
-
-nav > a:hover{
-  background:#007ac9;
-  color:#fff;
-}
-
-@media screen and (min-width: 0px) and (max-width: 700px) {
-nav{
-    flex-flow:column;
-    border: solid 1px black;
-  }
+.navbar-toggle {
+  background-color: grey;
 }

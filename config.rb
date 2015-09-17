@@ -42,7 +42,7 @@ set :markdown, :fenced_code_blocks => true
 
 page "/blog/*", layout: "blog"
 page "/blog/tags/*", layout: "tags"
-
+page "test", layout: "test"
 
 page "/feed.xml", layout: false
 
