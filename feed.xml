@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/blog/</id>
+  <link href="http://blog.url.com/blog/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2015-09-14T18:11:00+02:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Walkthrough Git</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/walkthrough-git.html"/>
+    <id>http://blog.url.com/blog/2015/09/14/walkthrough-git.html</id>
+    <published>2015-09-14T18:11:00+02:00</published>
+    <updated>2015-09-16T10:45:28+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;div class="post-content"&gt;&lt;pre class="cell code-cell"&gt;&lt;code class="bash hljs"&gt;&lt;span class="hljs-comment"&gt;# Terminal commands&lt;/span&gt;
+
+&lt;span class="hljs-built_in"&gt;pwd&lt;/span&gt; &lt;span class="hljs-comment"&gt;# Print Working Directory&lt;/span&gt;
+
+ls &lt;span class="hljs-comment"&gt;# See files/directories of the currently active folder&lt;/span&gt;
+[&lt;span class="hljs-operator"&gt;-l&lt;/span&gt;] &lt;span class="hljs-comment"&gt;# See as list&lt;/span&gt;
+[&lt;span class="hljs-operator"&gt;-a&lt;/span&gt;] &lt;span class="hljs-comment"&gt;# Display invisible files&lt;/span&gt;
+ls -al &lt;span class="hljs-comment"&gt;# Use multiple "methods"&lt;/span&gt;
+
+man [ls] &lt;span class="hljs-comment"&gt;# See help about ls&lt;/span&gt;
+
+&lt;span class="hljs-built_in"&gt;cd&lt;/span&gt; &lt;span class="hljs-comment"&gt;# Change directory&lt;/span&gt;
+&lt;span class="hljs-built_in"&gt;cd&lt;/span&gt; code &lt;span class="hljs-comment"&gt;# Go to "Code" directory&lt;/span&gt;
+&lt;span class="hljs-built_in"&gt;cd&lt;/span&gt; co + &lt;span class="hljs-string"&gt;"TAB"&lt;/span&gt; &lt;span class="hljs-comment"&gt;# Autocomplete with the rest of the directory's name&lt;/span&gt;
+&lt;span class="hljs-built_in"&gt;cd&lt;/span&gt; .. &lt;span class="hljs-comment"&gt;# Go UP one folder&lt;/span&gt;
+
+mkdir directory_name &lt;span class="hljs-comment"&gt;# Make directory&lt;/span&gt;
+touch file_name &lt;span class="hljs-comment"&gt;# Make file&lt;/span&gt;
+
+rm file_name &lt;span class="hljs-comment"&gt;# Delete file&lt;/span&gt;
+rm directory_name &lt;span class="hljs-comment"&gt;# Delete directory&lt;/span&gt;
+
+stt &lt;span class="hljs-comment"&gt;# Open directory in Sublime Text&lt;/span&gt;
+st file_name &lt;span class="hljs-comment"&gt;# Open "file_name" in Sublime Text&lt;/span&gt;&lt;/code&gt;
+&lt;/pre&gt;&lt;pre class="cell code-cell"&gt;&lt;code class="bash hljs"&gt;&lt;span class="hljs-comment"&gt;# Git commands&lt;/span&gt;
+
+&lt;span class="hljs-comment"&gt;# Existing repository&lt;/span&gt;
+git &lt;span class="hljs-built_in"&gt;clone&lt;/span&gt; &amp;lt;github_ssh_&lt;span class="hljs-built_in"&gt;clone&lt;/span&gt;_url&amp;gt; &lt;span class="hljs-comment"&gt;# To the right of a repository's main page on Github&lt;/span&gt;
+
+&lt;span class="hljs-comment"&gt;# Ex-nihilo&lt;/span&gt;
+git init &lt;span class="hljs-comment"&gt;# Initiate project in the current directory&lt;/span&gt;
+git status &lt;span class="hljs-comment"&gt;# See what files/folders have been modified or not taken into account yet&lt;/span&gt;
+git add file_name &lt;span class="hljs-comment"&gt;# Add the file&lt;/span&gt;
+git commit --message &lt;span class="hljs-string"&gt;"Reason for this commit"&lt;/span&gt; &lt;span class="hljs-comment"&gt;# Save the project's status&lt;/span&gt;
+git diff file_to_compare_to &lt;span class="hljs-comment"&gt;# Show differences between two files&lt;/span&gt;
+git &lt;span class="hljs-built_in"&gt;log&lt;/span&gt; &lt;span class="hljs-comment"&gt;# See history of commits&lt;/span&gt;
+git lg &lt;span class="hljs-comment"&gt;# Same same but different&lt;/span&gt;
+git rm -rf .git &lt;span class="hljs-comment"&gt;# Delete git project&lt;/span&gt;
+
+&lt;span class="hljs-comment"&gt;# Download&lt;/span&gt;
+git pull upstream &lt;span class="hljs-comment"&gt;# Get code our "clone" originated from&lt;/span&gt;
+
+&lt;span class="hljs-comment"&gt;# Upload&lt;/span&gt;
+git push &amp;lt;remote&amp;gt; &amp;lt;branch&amp;gt;
+
+git push origin master
+
+&lt;span class="hljs-comment"&gt;# Example!&lt;/span&gt;
+➜  &lt;span class="hljs-number"&gt;02&lt;/span&gt;-Buddies git:(master) git remote -v
+origin  git@github.com:coisnepe/fullstack-challenges.git (fetch)   &lt;span class="hljs-comment"&gt;# Fetch from my own repository on Github&lt;/span&gt;
+origin  git@github.com:coisnepe/fullstack-challenges.git (push)  &lt;span class="hljs-comment"&gt;# Push local changes to my repository on Github&lt;/span&gt;
+upstream    git@github.com:lewagon/fullstack-challenges.git (fetch) &lt;span class="hljs-comment"&gt;# Original repository&lt;/span&gt;
+upstream    git@github.com:lewagon/fullstack-challenges.git (push)
+
+&lt;/code&gt;
+&lt;/pre&gt;&lt;div class="cell markdown-cell"&gt;&lt;h3 style="text-align:center"&gt;&lt;a href="http://www.ndpsoftware.com/git-cheatsheet.html"&gt;—&amp;gt; Link to Interactive Git Cheatsheet &amp;lt;---&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;&lt;h1&gt;Using git remotely and locally…&lt;/h1&gt;&lt;h3&gt;These two images are the best compromises I could find between clarity and exhaustivity:&lt;/h3&gt;&lt;p&gt;&lt;img src="http://assets.osteele.com/images/2008/git-transport.png" alt="" width="100%" height="" border="0" scale="0"&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt; &lt;img src="http://jlord.us/git-it/assets/imgs/clone.png" alt="" width="100%" height="" border="0" scale="0"&gt;&lt;/p&gt;&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Terminal Commands</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/terminal-commands.html"/>
+    <id>http://blog.url.com/blog/2015/09/14/terminal-commands.html</id>
+    <published>2015-09-14T18:11:00+02:00</published>
+    <updated>2015-09-16T10:45:22+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html"></content>
+  </entry>
+  <entry>
+    <title>Playing with Praw</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/playing-with-praw.html"/>
+    <id>http://blog.url.com/blog/2015/09/14/playing-with-praw.html</id>
+    <published>2015-09-14T18:11:00+02:00</published>
+    <updated>2015-09-16T10:45:16+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Reddit can be a goldmine of information, as well as something fun to play with programatically. Although you could piece something together to scrap it with relevant Python modules (BeautifulSoup, Scrapy, Requests…), you’re probably better off using their proprietary API: ‘Praw’.
+ It can easily be installed via pip, and can then be run completely standalone. The cool thing about Praw is that not only can it be used to scrap data from users or subreddits, but also to create bots that interact with reddit to create subreddits, and vote as well as reply to comments and submissions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://praw.readthedocs.org/en/v3.1.0/"&gt;Read the Docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the most simple bot: it fetches &lt;a href="https://www.reddit.com/user/AWildSketchAppeared"&gt;u/AWildSketchAppeared&lt;/a&gt; ‘s comments and prints their content&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import praw
+
+useragent = &amp;quot;v2.0&amp;quot;
+
+u = praw.Reddit(user_agent = useragent)
+
+test_user = u.get_redditor(&amp;quot;AWildSketchAppeared&amp;quot;)
+
+for comment in test_user.get_comments(limit=50):
+    print comment.body
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Project idea: write a bot that would fetch &lt;a href="http://www.reddit.com/user/AWildSketchAppeard"&gt;u/AWildSketchAppeard&lt;/a&gt;, &lt;a href="http://www.reddit.com/user/Shitty_Watercolour"&gt;u/Shitty_Watercolour&lt;/a&gt; and &lt;a href="http://www.reddit.com/user/YOUR_NAME_IN_PAINT"&gt;u/YOUR&lt;em&gt;NAME&lt;/em&gt;IN_PAINT&lt;/a&gt; drawings and upload them to an Imgur gallery using &lt;a href="https://github.com/Imgur/imgurpython"&gt;their API&lt;/a&gt;. Or upload them via FTP to your server/S3 bucket to automatically serve them in your website’s photo gallery?&lt;/p&gt;
+
+&lt;p&gt;That’s a pretty big undertaking though, as you’d have to parse each comment via regex to check for imgur links, taking into account the fact that some may be shortened links, or not direct links (linking to an imgur gallery). Not to mention that some direct links may be appended with .gif, .jpg, .jpeg or .png. Much fun.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Hop on Le Wagon</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/hop-on-le-wagon.html"/>
+    <id>http://blog.url.com/blog/2015/09/14/hop-on-le-wagon.html</id>
+    <published>2015-09-14T18:11:00+02:00</published>
+    <updated>2015-09-16T12:34:47+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html"></content>
+  </entry>
+  <entry>
+    <title>Codecademy notes - Ruby</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/codecademy-notes-ruby.html"/>
+    <id>http://blog.url.com/blog/2015/09/14/codecademy-notes-ruby.html</id>
+    <published>2015-09-14T18:10:00+02:00</published>
+    <updated>2015-09-16T10:44:28+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;ol&gt;
+    &lt;li&gt;&lt;h3 id="tabli"&gt;&lt;a href="#introduction-to-ruby"&gt;Introduction to Ruby&lt;/a&gt;&lt;/h3&gt;
+        &lt;ol&gt;
+            &lt;li&gt;&lt;h5 id="tabli"&gt;&lt;a href="#-introduction-to-ruby-http-www-codecademy-com-courses-ruby-beginner-en-d1ylq-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Introduction to Ruby&lt;/a&gt;&lt;/h5&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;&lt;h3 id="tabli"&gt;&lt;a href="#methods"&gt;Methods&lt;/a&gt;&lt;/h3&gt;
+        &lt;ol&gt;
+            &lt;li&gt;&lt;h5 id="tabli"&gt;&lt;a href="#-dealing-with-inputs-http-www-codecademy-com-courses-ruby-beginner-en-mxxx5-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Dealing with inputs&lt;/a&gt;&lt;/h5&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;&lt;h3 id="tabli"&gt;&lt;a href="#control-flow-in-ruby"&gt;Control Flow in Ruby&lt;/a&gt;&lt;/h3&gt;
+        &lt;ol&gt;
+            &lt;li&gt;&lt;h5 id="tabli"&gt;&lt;a href="#-control-flow-in-ruby-http-www-codecademy-com-courses-ruby-beginner-en-nfcz7-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Control Flow in Ruby&lt;/a&gt;&lt;/h5&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;h5 id="tabli"&gt;&lt;a href="#-thith-means-war-http-www-codecademy-com-courses-ruby-beginner-en-jdnde-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Thith Means War!&lt;/a&gt;&lt;/h5&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;&lt;h3 id="tabli"&gt;&lt;a href="#looping-with-ruby"&gt;Looping with Ruby&lt;/a&gt;&lt;/h3&gt;
+        &lt;ol&gt;
+            &lt;li&gt;&lt;h5 id="tabli"&gt;&lt;a href="#-loops-iterators-http-www-codecademy-com-courses-ruby-beginner-en-xycn1-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Loops &amp;amp; Iterators&lt;/a&gt;&lt;/h5&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;h5 id="tabli"&gt;&lt;a href="#-redacted-http-www-codecademy-com-courses-ruby-beginner-en-mzrz6-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Redacted!&lt;/a&gt;&lt;/h5&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;&lt;h3 id="tabli"&gt;&lt;a href="#arrays-and-hashes"&gt;Arrays and Hashes&lt;/a&gt;&lt;/h3&gt;
+        &lt;ol&gt;
+            &lt;li&gt;&lt;h5 id="tabli"&gt;&lt;a href="#-data-structures-http-www-codecademy-com-courses-ruby-beginner-en-f3lob-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Data Structures&lt;/a&gt;&lt;/h5&gt;&lt;/li&gt;
+
+            &lt;li&gt;
+              &lt;h5 id="tabli"&gt;&lt;a href="#-create-a-histogram-http-www-codecademy-com-courses-ruby-beginner-en-693pd-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Create a Histogram&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+
+
+        &lt;h3 id="tabli"&gt;&lt;a href="#blocks-and-sorting"&gt;Blocks and Sorting&lt;/a&gt;&lt;/h3&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;
+              &lt;h5 id="tabli"&gt;&lt;a href="#-methods-blocks-and-sorting-http-www-codecademy-com-courses-ruby-beginner-en-et4bu-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Methods, Blocks and Sorting&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+                &lt;h5 id="tabli"&gt;&lt;a href="#-ordering-your-library-http-www-codecademy-com-courses-ruby-beginner-en-noho7-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Ordering Your Library&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+        &lt;h3 id="tabli"&gt;&lt;a href="#hashes-and-symbols"&gt;Hashes and Symbols&lt;/a&gt;&lt;/h3&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;
+                &lt;h5 id="tabli"&gt;&lt;a href="#-hashes-and-symbols-http-www-codecademy-com-courses-ruby-beginner-en-qn7qw-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Hashes and Symbols&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+                &lt;h5 id="tabli"&gt;&lt;a href="#-a-night-at-the-movies-http-www-codecademy-com-courses-ruby-beginner-en-0i8v1-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;A Night at the Movies&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+        &lt;h3 id="tabli"&gt;&lt;a href="#refactoring"&gt;Refactoring&lt;/a&gt;&lt;/h3&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;
+                &lt;h5 id="tabli"&gt;&lt;a href="#-the-zen-of-ruby-http-www-codecademy-com-courses-ruby-beginner-en-1o8mb-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;The Zen of Ruby&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+                &lt;h5 id="tabli"&gt;&lt;a href="#-the-refactor-factory-http-www-codecademy-com-courses-ruby-beginner-en-zjd2y-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;The Refactor Factory&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+        &lt;h3 id="tabli"&gt;&lt;a href="#blocks-procs-and-lambdas"&gt;Blocks, Procs and Lambdas&lt;/a&gt;&lt;/h3&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;
+                &lt;h5 id="tabli"&gt;&lt;a href="#-blocks-procs-and-lambdas-http-www-codecademy-com-courses-ruby-beginner-en-l3zci-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Blocks, Procs and Lambdas&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+        &lt;h3 id="tabli"&gt;&lt;a href="#object-oriented-programming-part-1"&gt;Object-Oriented Programming, Part 1&lt;/a&gt;&lt;/h3&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;
+                &lt;h5 id="tabli"&gt;&lt;a href="#-object-oriented-programming-i-http-www-codecademy-com-courses-ruby-beginner-en-mfiq6-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Object-Oriented Programming I&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+                &lt;h5 id="tabli"&gt;&lt;a href="#-virtual-computer-http-www-codecademy-com-courses-ruby-beginner-en-x5wcr-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Virtual Computer&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+        &lt;h3 id="tabli"&gt;&lt;a href="#object-oriented-programming-ii"&gt;Object-Oriented Programming II&lt;/a&gt;&lt;/h3&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;
+                &lt;h5 id="tabli"&gt;&lt;a href="#-object-oriented-programming-ii-http-www-codecademy-com-courses-ruby-beginner-en-zfe3o-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Object-Oriented Programming II&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+                &lt;h5 id="tabli"&gt;&lt;a href="#-banking-on-ruby-http-www-codecademy-com-courses-ruby-beginner-en-32cn3-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;Banking on Ruby&lt;/a&gt;&lt;/h5&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div id="contentarea"&gt;
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h3 id="introduction-to-ruby"&gt;Introduction to Ruby&lt;/h3&gt;&lt;a href="http://www.codecademy.com/en/tracks/ruby"&gt;http://www.codecademy.com/en/tracks/ruby&lt;/a&gt;
+
+        &lt;h5 id="-introduction-to-ruby-http-www-codecademy-com-courses-ruby-beginner-en-d1ylq-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Introduction to Ruby&lt;/a&gt;&lt;/h5&gt;Printing in Ruby
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+      &lt;code&gt;print "regular, just print to screen"
+      puts "adds a new line after printing"
+      &lt;/code&gt;
+    &lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h5 id="methods"&gt;Methods&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+      &lt;code class="ruby"&gt;
+        "Get the length".length
+
+        "Reverses the string".reverse
+
+        "upcase".upcase
+
+        "downcase".downcase
+
+        "capitalize".capitalize
+
+        # write a single line comment
+
+        =begin
+        Write a multiple lines comment
+        =end
+      &lt;/code&gt;
+    &lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h5 id="-dealing-with-inputs-http-www-codecademy-com-courses-ruby-beginner-en-mxxx5-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-MxXx5/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Dealing with inputs&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;print "What is your name?"
+name = gets.chomp
+name.capitalize
+# ! after the method modifies the variable permanently
+
+puts "Your name is #{name}"&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h3 id="control-flow-in-ruby"&gt;Control Flow in Ruby&lt;/h3&gt;
+
+        &lt;h5 id="-control-flow-in-ruby-http-www-codecademy-com-courses-ruby-beginner-en-nfcz7-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Control Flow in Ruby&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;print "Enter an integer:"
+the_integer = Integer(gets.chomp)
+
+if the_integer == 5
+  puts "five!"
+elsif the_integer &amp;gt; 0
+  puts "positive"
+elsif the_integer &amp;lt; 0
+  puts "negative"
+else
+  puts "zero!"
+end
+
+# unless
+hungry = true
+unless hungry
+  puts "I'm not hungry"
+else
+  puts "I AM hungry!"
+end
+
+# ----- Comparisons ------
+is_true = 2 != 3
+is_false = 2 == 3
+
+is_less_than = 17 &amp;lt; 16
+is_more_than = 17 &amp;gt; 16
+less_or_equal = 9 &amp;gt;= 9
+more_or_equal = 9 &amp;lt;= 9
+
+# ----- Booleans ------
+true &amp;amp;&amp;amp; true # and
+true || false # or
+!true # not... !true -&amp;gt; false
+
+(3 &amp;lt; 4 || false) &amp;amp;&amp;amp; (false || true)
+# (true OR false) AND (false OR true) --&amp;gt; (true) AND (true) --&amp;gt; true
+
+true || false || nil # Booleans&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h5 id="-thith-means-war-http-www-codecademy-com-courses-ruby-beginner-en-jdnde-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-JdNDe/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Thith Means War!&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;input_test = "six sense"
+
+if input_test.include? "s" # ' ? ' to evaluate if true or false
+  input_user.gsub!(/s/, "th") # gsub --&amp;gt; Global SUBstitution&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h3 id="looping-with-ruby"&gt;Looping with Ruby&lt;/h3&gt;
+
+        &lt;h5 id="-loops-iterators-http-www-codecademy-com-courses-ruby-beginner-en-xycn1-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-XYcN1/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Loops &amp;amp; Iterators&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# ----- Iterators -----
+while condition
+  # do something
+end
+
+until condition met
+  # do something
+end
+
+for num in 1...10 # range excluding 10
+  puts num
+end
+# 1..10 is range including 10
+
+
+# ----- Loops -----
+i = 0
+loop do # {
+  i += 1
+  next if i % 2 == 0 # Skip if i is even
+  puts "#{i}"
+  break if i &amp;gt; 5
+end # }
+
+# ----- Array -----
+this_array = [1,2,3,4,5]
+
+this_array.each do |x| # .each iterator
+  x += 10
+  print "#{x}"
+end
+
+this_array.each { |item| puts item}
+
+10.times { puts "je repete"}&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h5 id="-redacted-http-www-codecademy-com-courses-ruby-beginner-en-mzrz6-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-mzrZ6/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Redacted!&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;sentence = "This is going to be split"
+words = sentence.split(" ")&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h3 id="arrays-and-hashes"&gt;Arrays and Hashes&lt;/h3&gt;
+
+        &lt;h5 id="-data-structures-http-www-codecademy-com-courses-ruby-beginner-en-f3lob-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-F3loB/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Data Structures&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+      &lt;code&gt;# ----- Arrays -----
+      array[1] # Access 'second' item of array
+      multi_d_array = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]] # array of arrays
+      multi_d_array[0][1] # Access item with sub-array
+
+      multi_d_array.each do |sub_array|
+        sub_array.each do |sub_item|
+          puts sub_item
+        end
+      end
+
+      # ----- Hashes ----- ( = Python dictionary )
+      hash = {
+        key1 =&amp;gt; value1,
+        key2 =&amp;gt; value2,
+        key3 =&amp;gt; value3
+      }
+      puts hash[key1] # Prints the value of key1
+
+      pets = {}
+      pets = Hash.new
+      pets["Species"] = "Cat"
+
+      array.each { |x| puts "#{x}" }
+      hash.each { |x, y| puts "#{x}: #{y}"}
+      &lt;/code&gt;
+    &lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h5 id="-create-a-histogram-http-www-codecademy-com-courses-ruby-beginner-en-693pd-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-693PD/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Create a Histogram&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;frequencies = Hash.new(0) # Default value of 0 to all keys&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h3 id="blocks-and-sorting"&gt;Blocks and Sorting&lt;/h3&gt;
+
+        &lt;h5 id="-methods-blocks-and-sorting-http-www-codecademy-com-courses-ruby-beginner-en-et4bu-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-ET4bU/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Methods, Blocks and Sorting&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;def welcome(n)
+  puts "welcome" * n
+end
+
+# Splat arguments: there can be many
+def family(greeting, *bros)
+  bros.each { |bro| puts "#{greeting} #{bro}"}
+end
+family("Hey", "Greg", "Nick")
+
+# Combined Comparison
+item1 &amp;lt;=&amp;gt; item2
+# Returns O if item1 == item2, 1 if item1 &amp;gt; item 2 and -1 if item1 &amp;lt; item2
+
+books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
+
+# To sort our books in ascending order, in-place
+books.sort! { |firstBook, secondBook| firstBook &amp;lt;=&amp;gt; secondBook }
+&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h5 id="-ordering-your-library-http-www-codecademy-com-courses-ruby-beginner-en-noho7-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-nOho7/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Ordering Your Library&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;def alphabetize(arr, rev=false)
+    arr.sort!
+    if rev == true
+        arr.reverse!
+    else
+        return arr
+    end
+end
+
+numbers = [5, 1, 3, 8]
+
+puts alphabetize(numbers, true)&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h3 id="hashes-and-symbols"&gt;Hashes and Symbols&lt;/h3&gt;
+
+        &lt;h5 id="-hashes-and-symbols-http-www-codecademy-com-courses-ruby-beginner-en-qn7qw-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Hashes and Symbols&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# Hash literal notation:
+new_hash = { "one" =&amp;gt; 1}
+
+# Hash constructor notation
+new_hash = Hash.new
+
+# To add a new key/value to a hash:
+
+new_hash[newkey] = newvalue&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h5 id="-a-night-at-the-movies-http-www-codecademy-com-courses-ruby-beginner-en-0i8v1-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-0i8v1/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;A Night at the Movies&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# The case statement
+case language
+when "Ruby"
+  puts "Newcomer"
+when "Python"
+  puts "Old timer"
+else
+  puts "learn a language!"
+end&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h3 id="refactoring"&gt;Refactoring&lt;/h3&gt;
+    &lt;/div&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h5 id="-the-zen-of-ruby-http-www-codecademy-com-courses-ruby-beginner-en-1o8mb-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;The Zen of Ruby&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# Ternary conditional expression
+
+puts 3 &amp;gt; 4 ? "Nope, left is less than right": "Yep, right is more than left"
+
+case greeting
+    when "English" then puts "Hello!"
+end
+
+conditional_assignment_operator ||= "That's it"
+
+# Concatenation operator
+school = "Le"
+school &amp;lt;&amp;lt; "Wagon" # "Push" something to a string or array
+"Je vais" + school&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h5 id="-the-refactor-factory-http-www-codecademy-com-courses-ruby-beginner-en-zjd2y-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-Zjd2y/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;The Refactor Factory&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# Tricks to make better and more aesthetic code&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h3 id="blocks-procs-and-lambdas"&gt;Blocks, Procs and Lambdas&lt;/h3&gt;
+
+        &lt;h5 id="-blocks-procs-and-lambdas-http-www-codecademy-com-courses-ruby-beginner-en-l3zci-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Blocks, Procs and Lambdas&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;def yield_name(name)
+end
+yield_name("Paul") { |n| puts "What's up #{n}?"}
+
+def double(single)
+    yield single
+end
+double(2) {|n| n*2}&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# PROC
+# Keep code D.R.Y. : "Don't Repeat Yourself"
+multiples_of_3 = Proc.new do |n|
+  n % 3 == 0
+end
+
+(1..100).to_a.select(&amp;amp;multiples_of_3)
+
+# Call Procs
+hi = Proc.new { puts "Hello!"}
+hi.call&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# Lambdas
+=begin
+Lambda checks the number of arguments passed into it, but Procs don't
+
+Second, when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without going back to the calling method.
+=end
+
+def batman_ironman_proc
+  victor = Proc.new { return "Batman will win!" }
+  victor.call
+  "Iron Man will win!"
+end
+
+puts batman_ironman_proc
+
+def batman_ironman_lambda
+  victor = lambda { return "Batman will win!" }
+  victor.call
+  "Iron Man will win!"
+end
+
+puts batman_ironman_lambda&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;a href="https://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/"&gt;Difference between a Proc and a Lambda&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# 17/21
+odds_n_ends = [:weezard, 42, "Trady Blix", 3, true, 19, 12.345]
+
+process = lambda {|x| x.is_a? Integer}
+
+ints = odds_n_ends.select(&amp;amp;process)&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# 18/21
+ages = [23, 101, 7, 104, 11, 94, 100, 121, 101, 70, 44]
+
+# Add your code below!
+
+under_100 = Proc.new { |x| x &amp;lt; 100 }
+
+youngpeople = ages.select(&amp;amp;under_100)&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h3 id="object-oriented-programming-part-1"&gt;Object-Oriented Programming, Part 1&lt;/h3&gt;
+
+        &lt;h5 id="-object-oriented-programming-i-http-www-codecademy-com-courses-ruby-beginner-en-mfiq6-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Object-Oriented Programming I&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;class Person
+    def initialize(name)
+        @name = name
+    end
+end
+
+matz = Person.new("Yukihiro")&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Global variables ($)&lt;/li&gt;
+
+            &lt;li&gt;Local variables&lt;/li&gt;
+
+            &lt;li&gt;Class variables (@@)&lt;/li&gt;
+
+            &lt;li&gt;Instance variables (@)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# Global variable
+class MyClass
+  $my_variable = "Hello!"
+end
+
+puts $my_variable&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# Class inheritance
+class ApplicationError
+  def display_error
+    puts "Error! Error!"
+  end
+end
+
+class ReallyBadError &amp;lt; ApplicationError
+end
+
+err = ReallyBadError.new
+err.display_error
+
+# SuperBadError inherits the methods of the ApplicationError class&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# Superclass
+class DerivedClass &amp;lt; Base
+  def some_method
+    super(optional args)
+      # Some stuff
+    end
+  end
+end
+
+# The "super" keyword looks for a method with the same name in the superclass (in this case, the "Base" class)&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;class Monkey
+end
+# =
+class Monkey; end. &lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h5 id="-virtual-computer-http-www-codecademy-com-courses-ruby-beginner-en-x5wcr-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-X5wcR/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Virtual Computer&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# Class method:
+class Machine
+  def Machine.hello
+    puts "Hello from the machine!"
+  end
+end&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# Initialize a class:
+class Person
+  def initialize(name)
+    @name = name
+  end
+end
+
+emma = Person.new("Emma") #The parameters go to the initialize method&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# Exercise code
+
+class Machine
+  @@users = {}
+
+  def initialize(username, password)
+    @username = username
+    @password = password
+    @@users[username] = password
+    @files = {}
+  end
+
+  def create(filename)
+    time = Time.now
+    @files[filename] = time
+    puts "#{filename} was created by #{@username} at #{time}."
+  end
+
+  def Machine.get_users
+    @@users
+  end
+end
+
+my_machine = Machine.new("eric", 01234)
+your_machine = Machine.new("you", 56789)
+
+my_machine.create("groceries.txt")
+your_machine.create("todo.txt")
+
+puts "Users: #{Machine.get_users}"&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h3 id="object-oriented-programming-ii"&gt;Object-Oriented Programming II&lt;/h3&gt;
+
+        &lt;h5 id="-object-oriented-programming-ii-http-www-codecademy-com-courses-ruby-beginner-en-zfe3o-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-zfe3o/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Object-Oriented Programming II&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;class Person
+  def initialize(name, age)
+    @name = name
+    @age = age
+  end
+
+  public    # This method can be called from outside the class.
+
+  def about_me
+    puts "I'm #{@name} and I'm #{@age} years old!"
+  end
+
+  private   # This method can't! &amp;lt;-------------- !
+
+  def bank_account_number
+    @account_number = 12345
+    puts "My bank account number is #{@account_number}."
+  end
+end
+
+eric = Person.new("Eric", 26)
+eric.about_me
+eric.bank_account_number # Throws an error&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;class Person
+  attr_reader :name # access a variable
+  attr_writer :name # change that variable
+  def initialize(name)
+    @name = name
+  end
+end
+
+# We can read and write variables:
+# We just pass our instance variables (as symbols) to attr_reader or attr_writer.
+def name
+  @name
+end
+
+def name=(value)
+  @name = value
+end
+
+# Replace the name and job methods with attr_reader
+class Person
+    attr_reader :name
+    attr_writer :job
+  def initialize(name, job)
+    @name = name
+    @job = job
+  end
+
+end
+
+attr_accessor :job # = attr_reader :job PLUS attr_writer :job&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# Modules
+module Circle
+
+  PI = 3.141592653589793
+
+  def Circle.area(radius)
+    PI * radius**2
+  end
+
+  def Circle.circumference(radius)
+    2 * PI * radius
+  end
+end
+
+# Scope Resolution Operator:
+Math::PI # Looks for PI in the Math module
+Circle::PI # Looks for PI in the Circle module
+
+require 'date' # Use the "require" keyword to import modules
+puts Date.today
+
+class Angle
+  include Math # to import only within the class
+  def initialize(radians)
+    @radians = radians
+  end
+end&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# 12/18
+
+module Action
+  def jump
+    @distance = rand(4) + 2
+    puts "I jumped forward #{@distance} feet!"
+  end
+end
+
+class Rabbit
+  include Action
+  attr_reader :name
+  def initialize(name)
+    @name = name
+  end
+end
+
+class Cricket
+  include Action
+  attr_reader :name
+  def initialize(name)
+    @name = name
+  end
+end
+
+peter = Rabbit.new("Peter")
+jiminy = Cricket.new("Jiminy")
+
+peter.jump
+jiminy.jump
+
+# Output:
+# I jumped forward 5 feet!
+# I jumped forward 5 feet!&lt;/code&gt;
+&lt;/pre&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;# extend keyword
+
+# ThePresent has a .now method that we'll extend to TheHereAnd
+
+module ThePresent
+  def now
+    puts "It's #{Time.new.hour &amp;gt; 12 ? Time.new.hour - 12 : Time.new.hour}:#{Time.new.min} #{Time.new.hour &amp;gt; 12 ? 'PM' : 'AM'} (GMT)."
+  end
+end
+
+class TheHereAnd
+  extend ThePresent
+end
+
+TheHereAnd.now&lt;/code&gt;
+&lt;/pre&gt;
+
+    &lt;div class="cell markdown-cell"&gt;
+        &lt;h5 id="-banking-on-ruby-http-www-codecademy-com-courses-ruby-beginner-en-32cn3-0-1-curriculum_id-5059f8619189a5000201fbcb-"&gt;&lt;a href="http://www.codecademy.com/courses/ruby-beginner-en-32cN3/0/1?curriculum_id=5059f8619189a5000201fbcb"&gt;Banking on Ruby&lt;/a&gt;&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;pre class="cell code-cell"&gt;
+&lt;code&gt;class Account
+  attr_reader :name, :balance
+  def initialize(name, balance=100) # Means that if only the name argument is passed, balance is set to 100
+    @name = name
+    @balance = balance
+  end
+
+  def display_balance(pin_number)
+    puts pin_number == pin ? "Balance: $#{@balance}." : pin_error
+  end
+
+  def withdraw(pin_number, amount)
+    if pin_number == pin
+      @balance -= amount
+      puts "Withdrew #{amount}. New balance: $#{@balance}."
+    else
+      puts pin_error
+    end
+  end
+
+  private
+
+  def pin
+    @pin = 1234
+  end
+
+  def pin_error
+    "Access denied: incorrect PIN."
+  end
+end
+
+my_account = Account.new("Eric", 1_000_000)
+my_account.withdraw(11, 500_000)
+my_account.display_balance(1234)
+my_account.withdraw(1234, 500_000)
+my_account.display_balance(1234)&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Best Web Dev apps for Mac OSX</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2015/09/14/best-web-dev-apps-for-mac-osx.html"/>
+    <id>http://blog.url.com/blog/2015/09/14/best-web-dev-apps-for-mac-osx.html</id>
+    <published>2015-09-14T18:10:00+02:00</published>
+    <updated>2015-09-16T16:31:44+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3&gt;Transmit (FTP)&lt;/h3&gt;
+
+&lt;h5&gt;FTP&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src="https://panic.com/transmit/img/card-screenshot1.png" class="image-article" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Arguably the neatest Mac FTP client out there, it’s just fast and lets you access your servers or Amazon S3 buckets in the blink of an eye.
+&lt;a href="https://itunes.apple.com/fr/app/transmit/id403388562?l=en&amp;amp;mt=12"&gt;Link to the Mac App Store&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;h3&gt;Sublime Text 3&lt;/h3&gt;
+
+&lt;h5&gt;Text Editor&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src="http://i.stack.imgur.com/BzxFc.jpg" class="image-article" /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the most popular text editors for Mac, it really shines by its functionality, ease of use and customisability. You can seamlessly extend the base software with tons of plugins to allow folder navigation within the project, have a Python IDE one click away, git integration etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.sublimetext.com/"&gt;Sublime Text website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;h3&gt;Dash&lt;/h3&gt;
+
+&lt;h5&gt;Programming docs&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src="http://a1.mzstatic.com/us/r30/Purple5/v4/4a/6b/3f/4a6b3f67-dae6-5f65-f171-1bbc4b1a7c83/screen800x500.jpeg" class="image-article" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dash lets you download official documentation for all major languages, from HTML to Python, as well as frameworks such as Bootstrap, Rails or Django. You can also access docs compiled by third parties: Sublime Text shortcuts, Regex cheatsheet, Ruby gems or Python modules, etc. It’s freemium: you have access to most of the app but are limited to one query per 10 seconds. Well worth the $10 cost.&lt;/p&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;h3&gt;Quiver&lt;/h3&gt;
+
+&lt;h5&gt;Evernote for developers&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src="http://a4.mzstatic.com/us/r30/Purple1/v4/5e/fe/37/5efe379a-2638-97f4-bfcf-d539f8970713/screen800x500.jpeg" class="image-article" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I discovered Quiver a few weeks ago and couldn’t live without it now. It allows you to create notes split in various cells that can each have their own syntax: one with Ruby syntax highlighting and the following with Markdown for comments. It can export PDFs and full HTML pages (check out my “Learning Ruby on Codecademy” post to see what it’s capable of)&lt;/p&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;h3&gt;MAMP&lt;/h3&gt;
+
+&lt;h5&gt;Setup a local server&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src="https://www.mamp.info/en/images/screenshots/en_mamp-start.jpg" class="image-article" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pretty straightforward: create a server on your computer to develop apps. MAMP stands for Mac Apache Mysql PHP, which kind of is self-explanatory? Very stable, and the free version fulfils my needs for now.&lt;/p&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;h3&gt;Bonus: Time Out Free&lt;/h3&gt;
+
+&lt;h5&gt;Your eyes and body will thank you&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src="http://www.dejal.com/timeout/images/overview.png" class="image-article" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ever heard of the 20/20/20 rule? Every 20 minutes look for 20 seconds 20 meters away. It makes the world of a difference by the end of the day, between having sat 8 hours straight with your eyes riveted on your computer screen, and taking a walk once in a while to check out what’s happening around you. Our eyes are a fragile asset, take care of them!&lt;/p&gt;
+
+&lt;p&gt;What I consider to be the best programming apps installed on my computer...&lt;/p&gt;
+</content>
+  </entry>
+</feed>
